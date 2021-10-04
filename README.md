@@ -7,7 +7,6 @@ Hello World Project - for demonstration only
 ```
 |- sample
 |--- sample.txt
-
 ```
 
 ## About
