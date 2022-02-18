@@ -20,7 +20,7 @@ Not much to tell, it's a *Hello World Project*!
 
 ---
 
-*Version 0.0.1.0 | February 18. 2022* | Public | [RELEASE](./releases/tag/0.0.1.0/)
+*Version 0.0.1.0 | February 18. 2022* | Public | [RELEASE](https://github.com/dotjesper/hello-world/releases/tag/0.0.1.0/)
 
 *Version 0.0.0.3 | February 18. 2022* | Private
 
