@@ -1,8 +1,8 @@
 # Hello World
 
 [![Build with Visual Studio Code](https://img.shields.io/badge/Buildt%20with-Visual%20Studio%20Code-blue?style=flat)](https://code.visualstudio.com/)
-[![Build for 11](https://img.shields.io/badge/Buildt%20for-Windows%2011-blue)](https://windows.com/)
-[![Build for 10](https://img.shields.io/badge/Buildt%20for-Windows%2010-blue)](https://windows.com/)
+[![Build for 11](https://img.shields.io/badge/Buildt%20for-Windows%2011-blue?style=flat)](https://windows.com/)
+[![Build for 10](https://img.shields.io/badge/Buildt%20for-Windows%2010-blue?style=flat)](https://windows.com/)
 
 Hello World Project - for demonstration only
 
