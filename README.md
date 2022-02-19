@@ -2,7 +2,7 @@
 
 [![Built with Visual Studio Code](https://img.shields.io/badge/Built%20with-Visual%20Studio%20Code-blue?style=flat)](https://code.visualstudio.com/)
 [![Built for demonstration](https://img.shields.io/badge/Buildt%20for-demonstration%20purpose%20only-blue?style=flat)](https://dotjesper.com/)
-[![Built by hart](https://img.shields.io/badge/Built%20by-hart-blue?style=flat)](https://dotjesper.com/)
+[![Built by heart](https://img.shields.io/badge/Built%20by-heart-blue?style=flat)](https://dotjesper.com/)
 
 Hello World Project - for demonstration only
 
