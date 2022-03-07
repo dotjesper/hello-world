@@ -24,7 +24,7 @@ Since the first *Hello, World!* program was written in 1972, it has become a tra
 
 ## About
 
-Not much to tell, it's a *Hello World Project*!
+Not much to tell, it's a *Hello World!* project!
 
 ## Change log
 
