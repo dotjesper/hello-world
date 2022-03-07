@@ -6,6 +6,12 @@
 
 Hello World Project - for demonstration only
 
+Every IT profesional and veteran software developers know the term Hello World as the first step in learning to code. The program, which outputs some variant of “Hello, World!” on a device’s display, can be created in most languages, making it some of the most basic syntax involved in the coding process.
+
+*Brian Kernighan, author of one of the most widely read programming books, "C Programming Language", also created "Hello, World". He first referenced ‘Hello World’ in the C Programming Language book’s predecessor: A Tutorial Introduction to the Programming Language B published in 1973.*
+
+Since the first *Hello, World!* program was written in 1972, it has become a tradition to introduce the topic of programming with this example. As a result, *Hello, World!* is often the first program most people write and this repository is no different, this is my sample-ground and learning-area for working with [GitHub](https://github.com/ "https://github.com/").
+
 ## Context
 
 ```
