@@ -1,0 +1,7 @@
+{
+    "enabled": true,
+    "displayName": "Microsoft Edge for business",
+    "description": "Administrative Templates (.admx) for Microsoft Edge",
+    "url": "https://www.microsoft.com/edge/business/download",
+    "owner": "Jesper Nielsen"
+}
