@@ -9,8 +9,11 @@ Hello World Project - for demonstration only
 ## Context
 
 ```
+|- sample-content
 |- sample
 |--- sample.txt
+|- solution
+|--- hello-world.ps1
 ```
 
 ## About
