@@ -1,10 +1,17 @@
+---
+Title: README
+Date: March 14, 2022
+Author: dotjesper
+Status: In development
+---
+
 # Hello World
 
 [![Built with Visual Studio Code](https://img.shields.io/badge/Built%20with-Visual%20Studio%20Code-blue?style=flat)](https://code.visualstudio.com/)
 [![Built for demonstration](https://img.shields.io/badge/Buildt%20for-demonstration%20purpose%20only-blue?style=flat)](https://dotjesper.com/)
 [![Built by heart](https://img.shields.io/badge/Built%20by-heart-blue?style=flat)](https://dotjesper.com/)
 
-Hello, World Project - for demonstration only
+Hello, World Project - for demonstration purpose only.
 
 Every IT profesional and veteran software developers know the term Hello World as the first step in learning to code. The program, which outputs some variant of “Hello, World!” on a device’s display, can be created in most languages, making it some of the most basic syntax involved in the coding process.
 
@@ -15,11 +22,19 @@ Since the first *Hello, World!* program was written in 1972, it has become a tra
 ## Context
 
 ```
-|- sample-content
-|- sample
-|--- sample.txt
-|- solution
-|--- hello-world.ps1
+|-- sample
+    |-- sample.txt
+|-- sample-content
+    |-- content-folder-1
+        |-- 635797961477736098.jpg
+        |-- 635797961739127236.jpg
+        |-- 635797969244447801.jpg
+        |-- 635797969253930838.jpg
+    |-- content-folder-2
+    |-- content-folder-3
+|-- solution
+    |-- hello-download.ps1
+    |-- hello-world.ps1
 ```
 
 ## About
