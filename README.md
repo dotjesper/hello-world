@@ -19,6 +19,25 @@ Every IT profesional and veteran software developers know the term Hello World a
 
 Since the first *Hello, World!* program was written in 1972, it has become a tradition to introduce the topic of programming with this example. As a result, *Hello, World!* is often the first program most people write and this repository is no different, this is my sample-ground and learning-area for working with [GitHub](https://github.com/ "https://github.com/").
 
+## Option to highlight a "Note" and "Warning"
+
+Alerts are an extension of Markdown used to emphasize critical information. On GitHub, they are displayed with distinctive colors and icons to indicate the importance of the content.
+
+> [!NOTE]  
+> Highlights information that users should take into account, even when skimming.
+
+> [!TIP]
+> Optional information to help a user be more successful.
+
+> [!IMPORTANT]  
+> Crucial information necessary for users to succeed.
+
+> [!WARNING]  
+> Critical content demanding immediate user attention due to potential risks.
+
+> [!CAUTION]
+> Negative potential consequences of an action.
+
 ## Context
 
 ```
