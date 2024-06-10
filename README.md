@@ -41,19 +41,20 @@ Alerts are an extension of Markdown used to emphasize critical information. On G
 ## Context
 
 ```
-|-- sample
-    |-- sample.txt
-|-- sample-content
-    |-- content-folder-1
-        |-- 635797961477736098.jpg
-        |-- 635797961739127236.jpg
-        |-- 635797969244447801.jpg
-        |-- 635797969253930838.jpg
-    |-- content-folder-2
-    |-- content-folder-3
-|-- solution
-    |-- hello-download.ps1
-    |-- hello-world.ps1
+.
+├─ scripts
+|  ├─ app.js
+|  └─ app.js
+├─ solution
+|  ├─ app.js
+|  ├─ models.js
+|  ├─ routes.js
+|  └─ utils
+|     ├─ another.js
+|     ├─ constants.js
+|     └─ index.js
+├─ LICENSE
+└─ README.md
 ```
 
 ## About
