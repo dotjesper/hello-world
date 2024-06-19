@@ -57,6 +57,14 @@ Alerts are an extension of Markdown used to emphasize critical information. On G
 └─ README.md
 ```
 
+PowerShell Code block
+
+```PowerShell
+.\Invoke-RemediationReport.ps1
+
+.\Invoke-RemediationReport.ps1 -$scriptPackageOutputType "htmL" -installRequiredComponents $true
+```
+
 ## About
 
 Not much to tell, it's a *Hello, World!* project!
