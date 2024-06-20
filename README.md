@@ -69,6 +69,8 @@ PowerShell Code block
 
 Not much to tell, it's a *Hello, World!* project!
 
+[![Follow Jesper](https://img.shields.io/twitter/follow/dotjesper.svg?style=social)](https://twitter.com/dotjesper/ "Follow Jesper")
+
 ## Change log
 
 <details>
