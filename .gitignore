@@ -1,0 +1,7 @@
+#hello-world project
+
+#directories to ignore
+.bin/
+.notes/
+
+#files to ignore
