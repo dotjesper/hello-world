@@ -1,6 +1,7 @@
 ## Getting started with GitHub, Git and Visual Studio Code
 
 **Level:** 300+ | **Duration:** 45 minutes - 2+ hours | **Format:** Demo-heavy, hands-on walkthrough
+
 **Audience:** Device administrators, IT professionals, and IT admins with no prior GitHub or Git experience
 
 ### Abstract
