@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "docsmsft.docs-markdown",
+    "DotJoshJohnson.xml",
+    "eamodio.gitlens",
+    "EditorConfig.EditorConfig",
+    "GitHub.vscode-pull-request-github",
+    "heaths.vscode-guid",
+    "ms-vscode.PowerShell"
+  ]
+}

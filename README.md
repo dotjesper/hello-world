@@ -1,27 +1,24 @@
 Welcome to the **Hello World** project.
 
-> [!IMPORTANT]
-> The Hello World Project is for demonstration purposes only.
-
 This repository is not just another GitHub repository - it is also a personal learning platform for GitHub best practices, repository management, and solution design. The goal is for this repository to serve as a template for future projects.
 
 If you have comments, ideas, or suggestions, please use [Discussions](https://github.com/dotjesper/hello-world/discussions "Join the discussion") section.
 
 ## About
 
-This repository contains the source code for the Hello World demonstration project.
+This repository contains the source code for the **Hello World** demonstration project.
 
 ## Overview
 
-Every IT professional and veteran software developer knows the term Hello World as the first step in learning to code. The program, which outputs some variant of "Hello, World!" on a device's display, can be created in most languages, making it some of the most basic syntax involved in the coding process.
+Every IT professional and veteran software developer knows the term **Hello World** as the first step in learning to code. The program, which outputs some variant of "Hello, World!" on a device's display, can be created in most languages, making it some of the most basic syntax involved in the coding process.
 
-> Brian Kernighan, author of one of the most widely read programming books, "C Programming Language", also created "Hello, World". He first referenced "Hello World" in the C Programming Language book’s predecessor: A Tutorial Introduction to the Programming Language B published in 1973.
+> Brian Kernighan, author of one of the most widely read programming books, "C Programming Language", also created "Hello, World". He first referenced **Hello World** in the C Programming Language book’s predecessor: A Tutorial Introduction to the Programming Language B published in 1973.
 
 Since the first *Hello World!* program was written in 1972, it has become a tradition to introduce the topic of programming with this example. As a result, *Hello World!* is often the first program most people write and this repository is no different, this is my sample-ground and learning-area for working with [GitHub](https://github.com/ "https://github.com/").
 
 ## Idea
 
-The **Hello World** project is built on the principle that the best way to learn is by doing. Rather than treating "Hello World" as just a simple code example, this repository uses it as a foundation to explore and master GitHub repository management, Git workflows, and development tooling. By building a complete project around this simple concept, we can learn:
+The **Hello World** project is built on the principle that the best way to learn is by doing. Rather than treating **Hello World** as just a simple code example, this repository uses it as a foundation to explore and master GitHub repository management, Git workflows, and development tooling. By building a complete project around this simple concept, we can learn:
 
 - Repository structure and organization best practices
 - Documentation standards and community engagement
