@@ -2,6 +2,7 @@
 
 #directories to ignore
 .bin/
+.docs/
 .notes/
 
 #files to ignore
