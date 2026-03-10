@@ -1,0 +1,15 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Launch Windows Sandbox",
+      "type": "shell",
+      "command": "start ${workspaceFolder}/solution/solution.wsb",
+      "group": "none",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "problemMatcher": []
+    }
+  ]
+}
