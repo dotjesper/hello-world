@@ -149,6 +149,6 @@ These resources provide further reading on the topics covered on this page:
 
 *Page revised: March 7, 2026*
 
-<hr style="height:1px solid;">
+<hr style="height:1px;solid;">
 
 sdsdsd
