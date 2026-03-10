@@ -15,16 +15,16 @@ While the repository [README](https://github.com/dotjesper/hello-world/#readme) 
 
 | Page | Description |
 | :--- | :---------- |
-| **[Home](./Home)** | You are here - wiki overview and navigation |
-| **[Lesson 1 Getting Started](./Lesson-1-Getting-Started)** | Introduction to GitHub, Git and Visual Studio Code |
-| **[Lesson 2 Creating a Repository](./Lesson-2-Creating-a-Repository)** | Creating and configuring a GitHub repository |
-| **[Lesson 3 Writing Content](./Lesson-3-Writing-Content)** | Markdown, README files, and repository content |
-| **[Lesson 4 Branching and Workflows](./Lesson-4-Branching-and-Workflows)** | Cloning, branching, pull requests, and the daily Git workflow |
-| **[Lesson 5 Working With Repositories](./Lesson-5-Working-With-Repositories)** | Downloading, referencing, and working with repositories programmatically |
-| **[Lesson 6 AI as a Learning Companion](./Lesson-6-AI-as-a-Learning-Companion)** | AI-assisted coding, GitHub Copilot, and vibe coding as a learning companion |
-| **[Lesson 7 Copilot Configuration](./Lesson-7-Copilot-Configuration)** | Creating, maintaining, and sharing GitHub Copilot custom instructions |
-| **[Lesson 8 Field Notes](./Lesson-8-Field-Notes)** | Practical lessons learned and insights collected through hands-on experience |
-| **[Notes](./Notes)** | Notes and change log |
+| **[[Home]]** | You are here - wiki overview and navigation |
+| **[[Lesson 1 Getting Started]]** | Introduction to GitHub, Git and Visual Studio Code |
+| **[[Lesson 2 Creating a Repository]]** | Creating and configuring a GitHub repository |
+| **[[Lesson 3 Writing Content]]** | Markdown, README files, and repository content |
+| **[[Lesson 4 Branching and Workflows]]** | Cloning, branching, pull requests, and the daily Git workflow |
+| **[[Lesson 5 Working With Repositories]]** | Downloading, referencing, and working with repositories programmatically |
+| **[[Lesson 6 AI as a Learning Companion]]** | AI-assisted coding, GitHub Copilot, and vibe coding as a learning companion |
+| **[[Lesson 7 Copilot Configuration]]** | Creating, maintaining, and sharing GitHub Copilot custom instructions |
+| **[[Lesson 8 Field Notes]]** | Practical lessons learned and insights collected through hands-on experience |
+| **[[Notes]]** | Notes and change log |
 
 ## What I'm learning
 

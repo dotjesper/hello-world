@@ -245,7 +245,7 @@ A Visual Studio Code task can use `robocopy.exe` to copy `.md` files from the wi
 {
   "label": "Sync Wiki Pages",
   "type": "shell",
-  "command": "robocopy.exe '${workspaceFolder}/../hello-world.wiki' '${workspaceFolder}/.wiki' *.md /XF _*.md /PURGE; if ($LASTEXITCODE -le 7) { exit 0 } else { exit 1 }",
+  "command": "robocopy.exe '${workspaceFolder}/../hello-world.wiki' '${workspaceFolder}/.wiki' *.md /XF _*.md /XF README.md /PURGE; if ($LASTEXITCODE -le 7) { exit 0 } else { exit 1 }",
   "group": "none",
   "presentation": {
     "reveal": "always"
@@ -254,7 +254,7 @@ A Visual Studio Code task can use `robocopy.exe` to copy `.md` files from the wi
 }
 ```
 
-The `/XF _*.md` flag excludes files that start with an underscore, such as `_Footer.md` and `_Sidebar.md`, which are GitHub Wiki layout files and not actual pages. The `/PURGE` flag removes files from the `.wiki/` folder that no longer exist in the wiki repository, keeping the mirror in sync. The exit code handling at the end is needed because `robocopy.exe` uses exit codes 1-7 for various success conditions (e.g., 1 means files were copied, 2 means extra files were removed). Visual Studio Code treats any non-zero exit code as a failure, so the `if` statement normalizes codes 0-7 to exit code 0.
+The `/XF _*.md` flag excludes files that start with an underscore, such as `_Footer.md` and `_Sidebar.md`, which are GitHub Wiki layout files and not actual pages. The `/XF README.md` flag preserves the local `README.md` in the `.wiki/` folder, which exists only in the main repository. The `/PURGE` flag removes files from the `.wiki/` folder that no longer exist in the wiki repository, keeping the mirror in sync. The exit code handling at the end is needed because `robocopy.exe` uses exit codes 1-7 for various success conditions (e.g., 1 means files were copied, 2 means extra files were removed). Visual Studio Code treats any non-zero exit code as a failure, so the `if` statement normalizes codes 0-7 to exit code 0.
 
 ### The editing workflow
 
