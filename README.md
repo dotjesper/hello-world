@@ -63,7 +63,7 @@ The repository is organized into the following structure:
   📄 .gitattributes                            # Git attributes configuration
   📄 .gitignore                                # Files to exclude from Git
   📄 CONTRIBUTING.md                           # Contribution guidelines
-  📄 LICENSE                                   # MIT license
+  📄 LICENSE                                   # CC BY-NC-SA 4.0 license
   📄 README.md                                 # Repository documentation (this file)
 ```
 
@@ -89,7 +89,7 @@ Contributions, ideas, and feedback are welcome! Please see the [Contributing Gui
 
 ### License
 
-This project is licensed under the [MIT License](./LICENSE). The MIT License is a permissive open-source license that allows commercial use, modification, distribution, and private use. The only requirement is to include the original license and copyright notice in any copy or substantial portion of the work.
+This project is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/). You are free to share and adapt the material for non-commercial purposes, as long as you give appropriate credit and distribute any contributions under the same license. See the [LICENSE](./LICENSE) file for details.
 
 ### Disclaimer
 

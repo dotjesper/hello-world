@@ -22,7 +22,7 @@ This is a personal development project shared with the community. Please respect
 
 ## License
 
-By contributing to **Hello world project**, you agree that your contributions will be licensed under the [MIT License](./LICENSE) - in other words, share generously but provide attribution.
+By contributing to **Hello world project**, you agree that your contributions will be licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/) - in other words, share generously, provide attribution, but no commercial use.
 
 ---
 

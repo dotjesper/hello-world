@@ -1,65 +1,90 @@
-# Copilot Instructions - Hello world
+# Copilot Instructions - Hello World
 
-## Writing session abstracts
+These instructions guide GitHub Copilot when working with files in this project. The hello-world repository is a personal learning platform and reference for GitHub best practices, repository management, and PowerShell scripting.
 
-When drafting or reviewing a session abstract, follow this structure and these guidelines:
+## File standards
 
-### Structure
+All files in this repository must follow these standards:
 
-1. **Title** - Clear and searchable, include the core topic and angle, avoid jargon
-2. **Metadata** - Level, duration, format, and target audience on a single line
-3. **Opening hook** - A short, punchy paragraph that speaks directly to the audience's experience
-4. **Why now** - A brief paragraph explaining why this topic is timely and relevant
-5. **What the session covers** - A concise paragraph describing the journey, using short action-driven phrases
-6. **What to expect** - 3-7 bullets, each starting with an action verb (demonstrate, configure, create, explore, use), describing what will be shown - not vague themes
-7. **Takeaways** - Measurable, practical outcomes the audience can apply immediately
-8. **About the speaker** - Brief, relevant, and linked to online presence
+- **Encoding**: UTF-8 for all files
+- **Line endings**: LF (`\n`) - never CRLF (configured in `.vscode/settings.json` and `.editorconfig`)
+- **Final newline**: Always insert a final newline at end of file
+- **Trailing whitespace**: Trim trailing whitespace (except in Markdown files where trailing spaces may be intentional)
+- **Indentation**: 2 spaces (no tabs)
 
-### Writing style
+## Project structure
 
-- Use active voice and short sentences
-- Keep the opening paragraph to 2-3 sentences maximum
-- Avoid one long sentence listing everything - break into shorter statements or bullets
-- Use action verbs throughout: install, create, write, clone, explore, use, walk through
-- State the target audience explicitly in both the metadata and the abstract body
-- Address "why now" - explain what makes this topic timely
-- Be honest about what the session is and is not for
-- Avoid marketing fluff - be specific about what will be demonstrated
-- Proofread ruthlessly
+```text
+📂 .assets/                       # Repository branding images
+📂 .github/
+ └── 📄 copilot-instructions.md   # GitHub Copilot custom instructions
+📂 .vscode/
+ ├── 📄 extensions.json           # Recommended Visual Studio Code extensions
+ └── 📄 settings.json             # Workspace settings
+📂 solution/
+ ├── 📄 solution.wsb              # Windows Sandbox configuration
+ ├── 📂 assets/
+ │    ├── 📂 archives/            # Compressed asset files
+ │    └── 📂 images/              # Image assets
+ └── 📂 scripts/                  # PowerShell scripts
+📄 .editorconfig                  # Editor configuration
+📄 .gitattributes                 # Git attributes (line endings)
+📄 .gitignore                     # Git ignore rules
+📄 CONTRIBUTING.md                # Contribution guidelines
+📄 LICENSE                        # CC BY-NC-SA 4.0 License
+📄 README.md                      # Project overview
+```
 
-### Audience and level
+## PowerShell conventions
 
-- Always specify who the session is for and any prerequisites
-- Use contrast to clarify scope (e.g., "This is not a session for seasoned developers")
-- Match the language to the audience - avoid developer jargon when writing for IT professionals
+All PowerShell scripts live in `solution/scripts/` and follow these conventions:
 
-### Title guidance
+### Script structure
 
-- Include the core topic and a clear angle (e.g., "Getting started with GitHub, Git and Visual Studio Code")
-- Use keywords that reviewers and attendees would search for on Sessionize or conference websites
-- Keep it concise - long titles get truncated in search results and session lists
-- Avoid clever wordplay that obscures the actual content
+- **Minimum version**: PowerShell 5.1+ (`#requires -version 5.1`)
+- **Function structure**: Use standard `begin`/`process`/`end` blocks
+- **Error handling**: Try-catch blocks with warnings and proper exit codes
+- **Help documentation**: Full comment-based help with `#PSScriptInfo` headers including VERSION, GUID, AUTHOR, and TAGS
+- **Parameters**: Validate with `[ValidateNotNullOrEmpty()]`, `[ValidateRange()]`, and similar attributes. Include `HelpMessage` for each parameter.
+- **Progress indication**: Use progress bars for long-running operations
+- **Verbosity**: Support `-Verbose` throughout
 
-### Common pitfalls to avoid
+### Script header comments
 
-- Vague descriptions that could apply to any session ("learn best practices and tips")
-- Listing topics without explaining what will actually be demonstrated
-- Overselling - promising more than the session can deliver in the allotted time
-- Writing for yourself instead of for the reviewer who reads dozens of abstracts in a row
-- Burying the audience and level information deep in the text
+Every script must include a header comment block with description and elevation requirement:
 
-### Optimize for reviewers
+```powershell
+# Description: Brief explanation of what the script does
+# Elevation is required / is not required - Reason why this level is required
+```
 
-- Reviewers scan abstracts quickly - lead with the strongest, most specific information
-- Use short paragraphs and bullet lists for scannability
-- Make the first sentence count - it may be the only sentence a reviewer reads before deciding
-- Ensure the abstract answers three questions at a glance: who is this for, what will be shown, and what will the audience take away
+### Naming
 
-### References
+- **Script filenames**: PascalCase with Verb-Noun pattern (e.g., `Invoke-HelloWorld.ps1`, `Get-RepositoryFile.ps1`)
+- **Functions and parameters**: PascalCase
+- **Approved verbs**: Use PowerShell approved verbs (`Get-Verb`)
 
-- [How to write a Session Abstract](https://sessionize.com/s/bennidejagere/how-to-write-a-session-abstract-to-get-chosen-to-s/51957) - Benni De Jagere (Sessionize)
-- [Writing a Great Session Abstract](https://zoe-365.com/writing-a-great-session-abstract/) - Zoe Wilson (Zoe365)
-- [Session Abstract Guide](https://www.directionsforpartners.com/sag) - Directions for Partners
+### Security
+
+- Always use `-UseBasicParsing` on `Invoke-WebRequest` calls
+- Enforce TLS 1.2 for API calls: `[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12`
+- Use token-based authentication for GitHub API calls (never hardcode tokens)
+
+## Writing style
+
+Content in Markdown files (`README.md`, `CONTRIBUTING.md`) follows these conventions:
+
+- Professional but approachable tone
+- Use "I" for personal perspective
+- Use " - " (space-hyphen-space) for dashes, not em-dashes
+- Use **bold** for emphasis, not italics
+- Use "PowerShell" (not "PS", "PoSH", or "Powershell")
+- Use "Visual Studio Code" (not "VS Code")
+- Use "GitHub Copilot" (full product name on first reference)
+
+## Companion wiki
+
+The project wiki lives in the `hello-world.wiki` repository as a sibling workspace folder. Wiki pages follow separate conventions defined in the wiki's own `.github/copilot-instructions.md`. See the [project wiki](https://github.com/dotjesper/hello-world/wiki) for lessons and field notes.
 
 ---
 
