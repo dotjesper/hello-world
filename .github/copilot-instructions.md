@@ -78,9 +78,21 @@ Content in Markdown files (`README.md`, `CONTRIBUTING.md`) follows these convent
 - Use "I" for personal perspective
 - Use " - " (space-hyphen-space) for dashes, not em-dashes
 - Use **bold** for emphasis, not italics
+
+Consistent terminology must be used throughout the repository:
+
 - Use "PowerShell" (not "PS", "PoSH", or "Powershell")
+- Use "Microsoft 365" (not "M365")
+- Use "Microsoft Edge" (not "Edge" alone)
+- Use "Microsoft Intune" (not "Intune" alone)
+- Use "Microsoft Teams" (not "Teams" alone)
+- Use "Windows Autopatch" (not "Autopatch" alone)
+- Use "Windows Autopilot" (not "Autopilot" alone)
+- Use "Windows Autopilot device preparation" (not "Autopilot device preparation" or "device preparation" alone)
+- Use "Windows Sandbox" (not "Sandbox" alone)
 - Use "Visual Studio Code" (not "VS Code")
-- Use "GitHub Copilot" (full product name on first reference)
+- Use "Windows 365" (not "W365")
+- Use Microsoft Copilot product names in full on first reference (e.g., "GitHub Copilot", "Microsoft Copilot for Word")
 
 ## Companion wiki
 
