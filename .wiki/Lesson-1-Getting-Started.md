@@ -20,9 +20,6 @@ Before the session, make sure you have the following prerequisites in place:
 
 - A GitHub account (free) - sign up at [GitHub](https://github.com/ "GitHub")
 
-> [!NOTE]
-> Some software installations may require administrator rights on your device.
-
 ## Installing Visual Studio Code and Git
 
 Visual Studio Code and Git can be installed using the Windows Package Manager (winget), which is included in modern versions of Windows.
@@ -148,7 +145,3 @@ These resources provide further reading on the topics covered on this page:
 ---
 
 *Page revised: March 7, 2026*
-
-<hr style="height:0.5px;">
-
-sdsdsd

@@ -278,6 +278,18 @@ git commit -m "Remove mirrored wiki pages after review"
 
 This keeps the main branch free of duplicated wiki content while still allowing wiki changes to be reviewed as part of the pull request process.
 
+### Adding a README to the mirror folder
+
+A `README.md` in the `.wiki/` folder signals to anyone browsing the repository that the folder is a temporary mirror and should not be edited directly. The `/XF README.md` flag in the sync task ensures this file is not overwritten or removed during sync. A simple README like the following is sufficient:
+
+```markdown
+# Wiki preview
+
+This folder contains a mirrored copy of the [project wiki](https://github.com/dotjesper/hello-world/wiki) pages for review purposes only.
+
+**Do not edit files in this folder.** All changes to wiki pages must be made in the wiki repository. This folder should be removed before merging to the main branch.
+```
+
 ### Why the .wiki/ folder should not be gitignored
 
 The `.wiki/` folder in the main repository must be committed - not added to `.gitignore`. The entire purpose of mirroring is to make wiki changes visible in the main repository's branch and pull request workflow. If the folder were ignored, the mirrored files would not appear in diffs or reviews, defeating the purpose.
