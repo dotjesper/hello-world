@@ -152,6 +152,122 @@ A .gitattributes file controls how Git handles files in the repository - particu
 *.jpg binary
 ```
 
+## Community health files
+
+Beyond the common repository files, GitHub recognizes a set of community health files that help maintainers manage contributions, security, and support. These files are optional, but adding them improves the contributor experience and satisfies GitHub's Community Standards checklist.
+
+### SECURITY.md
+
+A SECURITY.md file tells people how to responsibly report security vulnerabilities in your project. Without one, people may open a public issue to report a vulnerability - potentially exposing it before you can fix it.
+
+GitHub recognizes this file and links to it from the repository's **Security** tab. A typical SECURITY.md includes:
+
+- **Supported versions** - Which branches or releases receive security updates
+- **Reporting instructions** - How to report a vulnerability privately (for example, using [GitHub Private Vulnerability Reporting](https://docs.github.com/en/code-security/security-advisories/guidance-on-reporting-and-writing-information-about-vulnerabilities/privately-reporting-a-security-vulnerability "Privately reporting a security vulnerability"))
+- **Scope** - What types of issues are considered security concerns
+- **Response expectations** - How quickly reporters can expect acknowledgment
+
+A SECURITY.md is most important for projects that include scripts, tools, or code that others run in their environments. For personal learning projects, it is optional but demonstrates awareness of responsible disclosure practices.
+
+### CODE_OF_CONDUCT.md
+
+A CODE_OF_CONDUCT.md defines the behavior expected from participants in the project community. It signals that the project is welcoming and that maintainers will address unacceptable behavior.
+
+The most widely adopted standard is the [Contributor Covenant](https://www.contributor-covenant.org/ "Contributor Covenant"), used by projects like .NET, Ruby, and Kubernetes. GitHub can generate a Code of Conduct file from the repository settings, or you can add one manually.
+
+A Code of Conduct typically covers:
+
+- **Expected behavior** - Being respectful, inclusive, and constructive
+- **Unacceptable behavior** - Harassment, trolling, and personal attacks
+- **Enforcement** - How violations are reported and handled
+- **Scope** - Where the code applies (issues, pull requests, discussions)
+
+For smaller or personal projects, a brief section in CONTRIBUTING.md may be sufficient. A dedicated file is more valuable for projects with an active community or multiple contributors.
+
+### SUPPORT.md
+
+A SUPPORT.md file tells people where to go for help. GitHub recognizes this file and displays a link to it in the issue template chooser, helping redirect general questions away from the issue tracker.
+
+A SUPPORT.md typically includes:
+
+- **Where to ask questions** - For example, GitHub Discussions, a community forum, or a chat channel
+- **Where to report bugs** - A link to the issue tracker or issue templates
+- **Where to find documentation** - Links to the wiki, README, or external docs
+
+A dedicated SUPPORT.md is most useful when a project has multiple support channels or tiers. For projects that already direct questions to GitHub Discussions through CONTRIBUTING.md or issue template configuration, a separate SUPPORT.md may not add new information - but it does satisfy the GitHub Community Standards checklist.
+
+### Issue templates
+
+Issue templates provide structured forms that guide contributors when opening new issues. Instead of a blank text box, contributors see pre-defined fields and prompts that help them provide the right information upfront.
+
+GitHub supports two formats for issue templates:
+
+- **Markdown templates** (`.md` files) - Simple templates that pre-fill the issue body with Markdown text. These work everywhere, including GitHub Enterprise Server.
+- **YAML issue forms** (`.yml` files) - Structured forms with dropdowns, checkboxes, text fields, and required validation. These provide a better contributor experience but require GitHub.com.
+
+Issue templates are stored in the `.github/ISSUE_TEMPLATE/` folder. A typical setup might include:
+
+```text
+ 📂 .github/
+  └─ 📂 ISSUE_TEMPLATE/
+      ├─ 📄 bug_report.yml        # Structured bug report form
+      ├─ 📄 feature_request.yml   # Feature or improvement suggestion
+      └─ 📄 config.yml            # Template chooser configuration
+```
+
+The `config.yml` file controls the template chooser that appears when contributors select **New Issue**. It can disable blank issues and add contact links - for example, a link to GitHub Discussions for general questions:
+
+```yaml
+blank_issues_enabled: false
+contact_links:
+  - name: Ask a question
+    url: https://github.com/yourname/yourrepo/discussions
+    about: Use GitHub Discussions for questions, ideas, or general feedback.
+```
+
+Disabling blank issues ensures that every issue follows one of the defined templates, which keeps the issue tracker organized and reduces back-and-forth with contributors.
+
+### Pull request template
+
+A pull request template pre-fills the description field when contributors open a new pull request. Unlike issue templates, GitHub only supports a single Markdown file for pull requests - there is no YAML form option.
+
+The template is stored as `.github/PULL_REQUEST_TEMPLATE.md` and typically includes sections for describing the change, linking related issues, and confirming that the contributor has followed the project's guidelines:
+
+```markdown
+## Description
+
+<!-- A clear description of the changes in this pull request. -->
+
+## Related issue
+
+<!-- Link the issue this PR addresses, e.g., Fixes issue 123 -->
+
+## Type of change
+
+- [ ] Bug fix
+- [ ] New feature
+- [ ] Documentation update
+
+## Checklist
+
+- [ ] I have tested the changes locally
+- [ ] I have reviewed the Contributing Guide
+```
+
+A pull request template adds consistency to pull requests without requiring contributors to remember the expected format. It is especially useful in repositories where multiple people contribute, but even for personal projects it serves as a useful self-checklist.
+
+### Community Standards checklist
+
+GitHub provides a built-in checklist that shows which community health files your repository includes. The checklist is not immediately obvious in the interface, but it provides a quick overview of what is in place and what is missing.
+
+To access the Community Standards checklist:
+
+1. Go to your repository on GitHub
+2. Select **Insights** from the top navigation
+3. Select **Community Standards** from the sidebar
+
+The checklist shows the status of files like README, CONTRIBUTING, LICENSE, CODE_OF_CONDUCT, SECURITY, and issue templates. Each item links to guidance on how to add it. This is a useful reference when setting up a new repository or reviewing an existing one for completeness.
+
 ## Writing good commit messages
 
 Commit messages serve as a log of what changed and why. Good commit messages are essential, even for small projects.
@@ -203,7 +319,13 @@ These resources provide further reading on the topics covered on this page:
 - [EditorConfig](https://editorconfig.org/ "EditorConfig") - Consistent coding styles between editors
 - [About READMEs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes "About READMEs") - GitHub documentation on README files
 - [Adding or editing wiki pages](https://docs.github.com/en/communities/documenting-your-project-with-wikis/adding-or-editing-wiki-pages "Adding or editing wiki pages") - GitHub documentation on working with wikis
+- [Creating a default community health file](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file "Creating a default community health file") - GitHub documentation on community health files
+- [Adding a security policy](https://docs.github.com/en/code-security/getting-started/adding-a-security-policy-to-your-repository "Adding a security policy") - GitHub documentation on SECURITY.md
+- [Contributor Covenant](https://www.contributor-covenant.org/ "Contributor Covenant") - A widely adopted Code of Conduct for open-source projects
+- [Configuring issue templates](https://docs.github.com/en/communities/using-templates-to-encourage-useful-contributions/configuring-issue-templates-for-your-repository "Configuring issue templates for your repository") - GitHub documentation on issue templates
+- [Syntax for issue forms](https://docs.github.com/en/communities/using-templates-to-encourage-useful-contributions/syntax-for-issue-forms "Syntax for issue forms") - GitHub documentation on YAML issue forms
+- [Creating a pull request template](https://docs.github.com/en/communities/using-templates-to-encourage-useful-contributions/creating-a-pull-request-template-for-your-repository "Creating a pull request template for your repository") - GitHub documentation on PR templates
 
 ---
 
-*Page revised: March 7, 2026*
+*Page revised: March 11, 2026*

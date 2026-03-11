@@ -15,26 +15,26 @@ All files in this repository must follow these standards:
 ## Project structure
 
 ```text
-📂 .assets/                       # Repository branding images
-📂 .github/
- └── 📄 copilot-instructions.md   # GitHub Copilot custom instructions
-📂 .vscode/
- ├── 📄 extensions.json           # Recommended Visual Studio Code extensions
- ├── 📄 settings.json             # Workspace settings
- └── 📄 tasks.json                # Task definitions
-📂 solution/
- ├── 📄 solution.wsb              # Windows Sandbox configuration
- ├── 📂 assets/
- │    ├── 📂 archives/            # Compressed asset files
- │    └── 📂 images/              # Image assets
- └── 📂 scripts/                  # PowerShell scripts
-📂 .wiki/                          # Mirrored wiki pages for branch review
-📄 .editorconfig                  # Editor configuration
-📄 .gitattributes                 # Git attributes (line endings)
-📄 .gitignore                     # Git ignore rules
-📄 CONTRIBUTING.md                # Contribution guidelines
-📄 LICENSE                        # CC BY-NC-SA 4.0 License
-📄 README.md                      # Project overview
+ 📂 .assets/                      # Repository branding images
+ 📂 .github/
+  └─ 📄 copilot-instructions.md   # GitHub Copilot custom instructions
+ 📂 .vscode/
+  ├─ 📄 extensions.json           # Recommended Visual Studio Code extensions
+  ├─ 📄 settings.json             # Workspace settings
+  └─ 📄 tasks.json                # Task definitions
+ 📂 solution/
+  ├─ 📄 solution.wsb              # Windows Sandbox configuration
+  ├─ 📂 assets/
+  │   ├─ 📂 archives/             # Compressed asset files
+  │   └─ 📂 images/               # Image assets
+  └─ 📂 scripts/                  # PowerShell scripts
+ 📂 .wiki/                        # Mirrored wiki pages for branch review
+ 📄 .editorconfig                 # Editor configuration
+ 📄 .gitattributes                # Git attributes (line endings)
+ 📄 .gitignore                    # Git ignore rules
+ 📄 CONTRIBUTING.md               # Contribution guidelines
+ 📄 LICENSE                       # CC BY-NC-SA 4.0 License
+ 📄 README.md                     # Project overview
 ```
 
 ## PowerShell conventions
