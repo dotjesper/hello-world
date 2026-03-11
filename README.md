@@ -47,24 +47,37 @@ Using the "Hello World" concept as inspiration, this project focuses on the infr
 The repository is organized into the following structure:
 
 ```text
-📂 hello-world/
-  📂 .assets/
-   └── 📄 github-repo-card-hello-world.png     # Repository card image
-  📂 .github/
-   └── 📄 copilot-instructions.md              # GitHub Copilot configuration
-  📂 solution/
-   ├── 📂 assets/                              # Archives and images
-   ├── 📂 scripts/
-   │  ├── 📄 Get-RepositoryFile.ps1            # Download files from a GitHub repository
-   │  ├── 📄 Invoke-HelloWorld.ps1             # Hello World demonstration script
-   │  └── 📄 Invoke-Speedtest.ps1              # Network speed test script
-   └── 📄 solution.wsb                         # Windows Sandbox configuration
-  📄 .editorconfig                             # Cross-editor configuration
-  📄 .gitattributes                            # Git attributes configuration
-  📄 .gitignore                                # Files to exclude from Git
-  📄 CONTRIBUTING.md                           # Contribution guidelines
-  📄 LICENSE                                   # CC BY-NC-SA 4.0 license
-  📄 README.md                                 # Repository documentation (this file)
+ 📂 hello-world/
+  └─ 📂 .assets/
+      └─ 📄 github-repo-card-hello-world.png      # Repository card image
+     📂 .github/
+      ├─ 📂 ISSUE_TEMPLATE/
+      │   ├─ 📄 bug_report.yml               # Bug report issue form
+      │   ├─ 📄 feature_request.yml          # Feature request issue form
+      │   └─ 📄 config.yml                   # Template chooser configuration
+      ├─ 📄 copilot-instructions.md          # GitHub Copilot configuration
+      └─ 📄 PULL_REQUEST_TEMPLATE.md         # Pull request template
+     📂 .vscode/
+      ├─ 📄 extensions.json                  # Recommended Visual Studio Code extensions
+      ├─ 📄 settings.json                    # Workspace settings
+      └─ 📄 tasks.json                       # Task definitions
+     📂 solution/
+      ├─ 📂 assets/
+      │   ├─ 📂 archives/                    # Compressed asset files
+      │   └─ 📂 images/                      # Image assets
+      ├─ 📂 scripts/
+      │   ├─ 📄 Get-RepositoryFile.ps1       # Download files from a GitHub repository
+      │   ├─ 📄 Get-RepositoryOverview.ps1   # Repository structure overview
+      │   ├─ 📄 Invoke-HelloWorld.ps1        # Hello World demonstration script
+      │   ├─ 📄 Invoke-Speedtest.ps1         # Network speed test script
+      │   └─ 📄 Set-ShortcutPin.ps1          # Pin shortcuts to Start Menu or taskbar
+      └─ 📄 solution.wsb                     # Windows Sandbox configuration
+     📄 .editorconfig                        # Cross-editor configuration
+     📄 .gitattributes                       # Git attributes configuration
+     📄 .gitignore                           # Files to exclude from Git
+     📄 CONTRIBUTING.md                      # Contribution guidelines
+     📄 LICENSE                              # CC BY-NC-SA 4.0 license
+     📄 README.md                            # Repository documentation (this file)
 ```
 
 ## Usage
