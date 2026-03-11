@@ -4,6 +4,14 @@
 
 This change log tracks notable changes to the wiki content.
 
+### 0.12.0 - March 11, 2026
+
+- Added issue templates (bug report, feature request) and pull request template to repository
+- Added [Part 3 Repository Essentials](./Part-3-Repository-Essentials) - new "Community health files" section covering SECURITY.md, CODE_OF_CONDUCT.md, SUPPORT.md, issue templates, pull request templates, and the Community Standards checklist
+- Updated [Part 4 Branching and Workflows](./Part-4-Branching-and-Workflows) - expanded multi-root workspace intro to note broader use cases
+- Aligned folder structure formatting across copilot-instructions files, wiki pages, and README
+- Updated README content structure to reflect current repository files
+
 ### 0.11.0 - March 10, 2026
 
 - Split [Part 6 AI as a Learning Companion](./Part-6-AI-as-a-Learning-Companion) - moved copilot-instructions.md and sharing instructions content to new [Part 7 Copilot Configuration](./Part-7-Copilot-Configuration) page
@@ -47,4 +55,4 @@ This change log tracks notable changes to the wiki content.
 
 ---
 
-*Page revised: March 10, 2026*
+*Page revised: March 11, 2026*
