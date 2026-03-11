@@ -52,6 +52,9 @@ If the repository is private, Visual Studio Code will prompt you to authenticate
 
 Multi-root workspaces in Visual Studio Code allow you to open both a repository and its wiki side by side in the same editor window. This is useful when you want to edit code and documentation together.
 
+> [!INFORMATION]
+> This is just one example. Multi-root workspaces can include any number of folders for any reason - for instance, working across multiple related repositories, sharing configuration between projects, or using GitHub Copilot with context from several codebases at once to maintain alignment across them.
+
 ### Creating a multi-root workspace
 
 To set up a multi-root workspace:
@@ -103,10 +106,10 @@ A few things to note about the workspace file:
 For the workspace file paths to resolve correctly, clone both the repository and the wiki repository into the same parent folder:
 
 ```text
-📂 parent-folder/
-   ├── 📂 hello-world/               # Main repository
-   ├── 📂 hello-world.wiki/          # Wiki repository
-   └── 📄 hello-world.code-workspace
+ 📂 parent-folder/
+  ├─ 📂 hello-world/                # Main repository
+  ├─ 📂 hello-world.wiki/           # Wiki repository
+  └─ 📄 hello-world.code-workspace
 ```
 
 Open the workspace file in Visual Studio Code by double-clicking it or using **File** > **Open Workspace from File...**.

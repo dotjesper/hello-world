@@ -13,21 +13,21 @@ In a multi-root workspace, the configuration hierarchy changes. Visual Studio Co
 A single folder setup reads recommendations normally:
 
 ```text
-📂 folder/
-   └── 📂 .vscode/
-       └── 📄 extensions.json   ← works
+ 📂 folder/
+  └─ 📂 .vscode/
+      └─ 📄 extensions.json   ← works
 ```
 
 A multi-root workspace ignores folder-level recommendations:
 
 ```text
-📄 my-workspace.code-workspace
-📂 folderA/
-   └── 📂 .vscode/
-       └── 📄 extensions.json   ← ignored
-📂 folderB/
-   └── 📂 .vscode/
-       └── 📄 extensions.json   ← ignored
+ 📂 folderA/
+  └─ 📂 .vscode/
+      └─ 📄 extensions.json   ← ignored
+ 📂 folderB/
+  └─ 📂 .vscode/
+      └─ 📄 extensions.json   ← ignored
+ 📄 my-workspace.code-workspace
 ```
 
 This is an intentional design choice. In multi-root workspaces, only workspace-level recommendations are used. This prevents conflicts where different folders might recommend competing extensions - for example, one folder recommending ESLint while another recommends TSLint.

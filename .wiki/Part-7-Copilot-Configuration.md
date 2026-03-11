@@ -25,9 +25,9 @@ Follow these steps to add a copilot-instructions.md file to your repository:
 1. In Visual Studio Code, create the folder and file:
 
    ```text
-   📂 your-repository/
-      └── 📂 .github/
-          └── 📄 copilot-instructions.md
+    📂 your-repository/
+     └─ 📂 .github/
+         └─ 📄 copilot-instructions.md
    ```
 
 2. Open Copilot Chat and ask for help drafting the initial content:
@@ -87,10 +87,10 @@ The repo-level `copilot-instructions.md` file works well for project-specific co
 Create a folder in your OneDrive directory to hold reusable instruction files:
 
 ```text
-📂 %USERPROFILE%\OneDrive\.github\copilot-instructions\
- ├── 📄 base.instructions.md                       # General coding conventions
- ├── 📄 writing-session-abstracts.instructions.md  # Session abstract writing guide
- └── 📄 documentation-style.instructions.md        # Documentation formatting rules
+ 📂 %USERPROFILE%\OneDrive\.github\copilot-instructions\
+  ├─ 📄 base.instructions.md                       # General coding conventions
+  ├─ 📄 writing-session-abstracts.instructions.md  # Session abstract writing guide
+  └─ 📄 documentation-style.instructions.md        # Documentation formatting rules
 ```
 
 Storing instruction files in OneDrive ensures they sync automatically across all your devices. Each file covers a specific topic and can be maintained independently. This gives you a single source of truth for all reusable instruction sets.
@@ -134,13 +134,13 @@ This layered approach gives you global reusable knowledge combined with local pr
 As a repository grows, a single `copilot-instructions.md` file may not be enough. Creating a dedicated folder inside `.github/` keeps instruction files organized and easy to maintain:
 
 ```text
-📂 your-repository/
- └── 📂 .github/
-      ├── 📄 copilot-instructions.md         # Auto-picked up by GitHub Copilot
-      └── 📂 copilot-instructions/
-           ├── 📄 linked.instructions.md      # Companion blog post writing guide
-           ├── 📄 session.instructions.md     # Session abstract writing guide
-           └── 📄 powershell.instructions.md  # PowerShell coding standards
+ 📂 your-repository/
+  └─ 📂 .github/
+      ├─ 📄 copilot-instructions.md          # Auto-picked up by GitHub Copilot
+      └─ 📂 copilot-instructions/
+           ├─ 📄 linked.instructions.md      # Companion blog post writing guide
+           ├─ 📄 session.instructions.md     # Session abstract writing guide
+           └─ 📄 powershell.instructions.md  # PowerShell coding standards
 ```
 
 The `copilot-instructions.md` file in the `.github/` root is picked up automatically by GitHub Copilot without any configuration. Additional files inside the `copilot-instructions/` folder need to be referenced explicitly in `.vscode/settings.json` - but having them in a clearly named folder makes it obvious what they are and where they belong.
