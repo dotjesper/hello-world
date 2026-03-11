@@ -1,6 +1,6 @@
 This page captures practical lessons learned while working with this project - things that were not obvious at first but became clear through hands-on experience. These are the kind of insights that only surface when you actually build, configure, and troubleshoot a real repository.
 
-For AI-assisted coding exercises and GitHub Copilot configuration, see the [Lesson 6 AI as a Learning Companion](./Lesson-6-AI-as-a-Learning-Companion) and [Lesson 7 Copilot Configuration](./Lesson-7-Copilot-Configuration) pages.
+For AI-assisted coding walkthroughs and GitHub Copilot configuration, see the [Part 6 AI as a Learning Companion](./Part-6-AI-as-a-Learning-Companion) and [Part 7 Copilot Configuration](./Part-7-Copilot-Configuration) pages.
 
 ## Extension recommendations in multi-root workspaces
 
@@ -59,7 +59,7 @@ Visual Studio Code treats a multi-root workspace as a single project, even if it
 
 ## Copilot instructions and the GitHub Wiki sidebar
 
-GitHub Wiki treats every Markdown file in the repository as a wiki page and displays it in the sidebar. This includes files that are not intended to be pages - such as `.github/copilot-instructions.md`. If this file is committed to the wiki repository, it appears in the sidebar as a page titled "copilot instructions", which is confusing and clutters the navigation. For an introduction to creating and maintaining the copilot-instructions.md file, see [Lesson 7 Copilot Configuration](./Lesson-7-Copilot-Configuration).
+GitHub Wiki treats every Markdown file in the repository as a wiki page and displays it in the sidebar. This includes files that are not intended to be pages - such as `.github/copilot-instructions.md`. If this file is committed to the wiki repository, it appears in the sidebar as a page titled "copilot instructions", which is confusing and clutters the navigation. For an introduction to creating and maintaining the copilot-instructions.md file, see [Part 7 Copilot Configuration](./Part-7-Copilot-Configuration).
 
 ### Why this happens
 

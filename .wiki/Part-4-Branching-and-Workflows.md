@@ -1,6 +1,6 @@
 This page covers the hands-on workflow of cloning repositories, working with branches, and using the daily Git cycle. These are the skills you will use every time you sit down to work on a project.
 
-For creating and configuring a repository, see the [Lesson 2 Creating a Repository](./Lesson-2-Creating-a-Repository) page. For writing documentation, see the [Lesson 3 Writing Content](./Lesson-3-Writing-Content) page.
+For creating and configuring a repository, see the [Part 2 Creating a Repository](./Part-2-Creating-a-Repository) page. For writing documentation, see the [Part 3 Repository Essentials](./Part-3-Repository-Essentials) page.
 
 ## Cloning a repository
 

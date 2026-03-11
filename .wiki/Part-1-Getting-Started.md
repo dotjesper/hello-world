@@ -2,7 +2,7 @@ This page is a gentle introduction to GitHub, Git and Visual Studio Code - writt
 
 The content is based on the *Getting started with GitHub, Git and Visual Studio Code* demonstration session and covers prerequisites, installation, and initial configuration.
 
-For creating and configuring a repository, see the [Lesson 2 Creating a Repository](./Lesson-2-Creating-a-Repository) page. For writing documentation and structuring repository files, see the [Lesson 3 Writing Content](./Lesson-3-Writing-Content) page.
+For creating and configuring a repository, see the [Part 2 Creating a Repository](./Part-2-Creating-a-Repository) page. For writing documentation and structuring repository files, see the [Part 3 Repository Essentials](./Part-3-Repository-Essentials) page.
 
 ## Why GitHub, Git and Visual Studio Code
 

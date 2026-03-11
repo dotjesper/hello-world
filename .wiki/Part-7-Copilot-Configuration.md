@@ -1,10 +1,10 @@
 This page covers how to create, maintain, and share GitHub Copilot custom instructions across projects. Custom instructions give GitHub Copilot project-specific context, so every response is aligned with your conventions without repeating guidance in every prompt.
 
-For hands-on exercises with GitHub Copilot and AI-assisted coding, see the [Lesson 6 AI as a Learning Companion](./Lesson-6-AI-as-a-Learning-Companion) page. For practical discoveries about copilot-instructions.md in wiki repositories, see the [Lesson 8 Field Notes](./Lesson-8-Field-Notes) page.
+For hands-on walkthroughs with GitHub Copilot and AI-assisted coding, see the [Part 6 AI as a Learning Companion](./Part-6-AI-as-a-Learning-Companion) page. For practical discoveries about copilot-instructions.md in wiki repositories, see the [Part 8 Field Notes](./Part-8-Field-Notes) page.
 
 ## Adding copilot-instructions.md to your repository
 
-A `copilot-instructions.md` file gives GitHub Copilot project-specific context every time it works with your repository. Instead of repeating the same guidance in every prompt, you define your conventions once and GitHub Copilot follows them automatically. This exercise walks you through creating and maintaining this file.
+A `copilot-instructions.md` file gives GitHub Copilot project-specific context every time it works with your repository. Instead of repeating the same guidance in every prompt, you define your conventions once and GitHub Copilot follows them automatically. This walkthrough guides you through creating and maintaining this file.
 
 ### What copilot-instructions.md does
 
@@ -52,7 +52,7 @@ Follow these steps to add a copilot-instructions.md file to your repository:
 5. Commit the file to your repository so it is available on every device where you clone the project
 
 > [!NOTE]
-> The copilot-instructions.md file is read automatically by GitHub Copilot when you work in the repository. There is no additional configuration needed - just create the file in the `.github/` folder and commit it. For wiki repositories, there is a sidebar gotcha to be aware of - see the [Lesson 8 Field Notes](./Lesson-8-Field-Notes) page for a workaround using `.gitignore`.
+> The copilot-instructions.md file is read automatically by GitHub Copilot when you work in the repository. There is no additional configuration needed - just create the file in the `.github/` folder and commit it. For wiki repositories, there is a sidebar gotcha to be aware of - see the [Part 8 Field Notes](./Part-8-Field-Notes) page for a workaround using `.gitignore`.
 
 ### Maintaining the file over time
 

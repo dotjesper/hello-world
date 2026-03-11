@@ -1,6 +1,6 @@
-This page covers the content side of working with repositories - writing documentation, structuring common files, and using Markdown effectively. These are the skills that turn a collection of scripts into a well-documented, professional repository.
+This page covers the essential files and standards that turn a collection of scripts into a well-documented, professional repository - README, LICENSE, .gitignore, .editorconfig, and more.
 
-For installation, configuration, and setup, see the [Lesson 1 Getting Started](./Lesson-1-Getting-Started) page. For more advanced topics like downloading files programmatically, see the [Lesson 5 Working With Repositories](./Lesson-5-Working-With-Repositories) page.
+For installation, configuration, and setup, see the [Part 1 Getting Started](./Part-1-Getting-Started) page. For more advanced topics like downloading files programmatically, see the [Part 5 Working With Repositories](./Part-5-Working-With-Repositories) page.
 
 ## Learning Markdown
 
@@ -17,7 +17,7 @@ These are the most common Markdown elements:
 | Code | `` `inline code` `` | `inline code` |
 | List | `- item` | Bullet point |
 
-For a complete reference, see the [Markdown Guide](https://www.markdownguide.org/ "Markdown Guide").
+For a complete reference, see [Writing on GitHub](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax "Basic writing and formatting syntax").
 
 ## Common repository files
 

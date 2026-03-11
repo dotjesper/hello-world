@@ -1,6 +1,6 @@
-Once you are comfortable with the basics covered in the earlier lessons, there are several practical techniques that take your GitHub and PowerShell workflow further. This page covers how to interact with GitHub repositories programmatically - downloading files, referencing content directly, and understanding the different ways GitHub serves repository content.
+Once you are comfortable with the basics covered in the earlier parts, there are several practical techniques that take your GitHub and PowerShell workflow further. This page covers how to interact with GitHub repositories programmatically - downloading files, referencing content directly, and understanding the different ways GitHub serves repository content.
 
-For cloning, branching, and daily workflows, see the [Lesson 4 Branching and Workflows](./Lesson-4-Branching-and-Workflows) page.
+For cloning, branching, and daily workflows, see the [Part 4 Branching and Workflows](./Part-4-Branching-and-Workflows) page.
 
 ## Understanding GitHub URLs
 

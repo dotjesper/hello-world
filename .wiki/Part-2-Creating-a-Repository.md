@@ -2,9 +2,9 @@ This page walks through creating and configuring a GitHub repository from scratc
 
 > A repository is just a folder, it is as simple as that.<br>And then you add configuration files to make it a repository.
 
-That is the core idea behind this lesson - start simple, then layer on the configuration that turns a folder into a well-structured, collaborative workspace.
+That is the core idea behind this part - start simple, then layer on the configuration that turns a folder into a well-structured, collaborative workspace.
 
-For installation, configuration, and setup, see the [Lesson 1 Getting Started](./Lesson-1-Getting-Started) page. For writing documentation and structuring repository files, see the [Lesson 3 Writing Content](./Lesson-3-Writing-Content) page.
+For installation, configuration, and setup, see the [Part 1 Getting Started](./Part-1-Getting-Started) page. For writing documentation and structuring repository files, see the [Part 3 Repository Essentials](./Part-3-Repository-Essentials) page.
 
 ## Creating a GitHub repository
 
@@ -20,7 +20,7 @@ Follow these steps to create a new repository on GitHub:
 4. Add a description that explains the purpose of the repository
 5. Choose **Public** or **Private** visibility
 6. Check **Add a README file** to create an initial README.md
-7. Optionally add a `.gitignore` template and a license
+7. Optionally add a `.gitignore` template and a `.LICENSE` file
 8. Click **Create repository**
 
 ### Editing repository details
@@ -137,7 +137,7 @@ git remote add origin https://github.com/your-username/your-repository.git
 git push -u origin main
 ```
 
-After pushing, the local folder and the GitHub repository are connected. From this point, the daily workflow is the same as any cloned repository - pull, stage, commit, push - as described in [Lesson 4 Branching and Workflows](./Lesson-4-Branching-and-Workflows).
+After pushing, the local folder and the GitHub repository are connected. From this point, the daily workflow is the same as any cloned repository - pull, stage, commit, push - as described in [Part 4 Branching and Workflows](./Part-4-Branching-and-Workflows).
 
 ## Useful references
 

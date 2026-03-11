@@ -94,11 +94,12 @@ Consistent terminology must be used throughout the repository:
 - Use "Windows Sandbox" (not "Sandbox" alone)
 - Use "Visual Studio Code" (not "VS Code")
 - Use "Windows 365" (not "W365")
+- Use "Vibe Coding" (not "vibe coding" or "Vibe coding")
 - Use Microsoft Copilot product names in full on first reference (e.g., "GitHub Copilot", "Microsoft Copilot for Word")
 
 ## Companion wiki
 
-The project wiki lives in the `hello-world.wiki` repository as a sibling workspace folder. Wiki pages follow separate conventions defined in the wiki's own `.github/copilot-instructions.md`. See the [project wiki](https://github.com/dotjesper/hello-world/wiki) for lessons and field notes.
+The project wiki lives in the `hello-world.wiki` repository as a sibling workspace folder. Wiki pages follow separate conventions defined in the wiki's own `.github/copilot-instructions.md`. See the [project wiki](https://github.com/dotjesper/hello-world/wiki) for parts and field notes.
 
 ---
 

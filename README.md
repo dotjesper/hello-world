@@ -101,7 +101,7 @@ Scripts, solutions, or code in this repository may contain additional legal disc
 
 ## Change log
 
-See the [Change Log](https://github.com/dotjesper/hello-world/wiki/Notes) wiki page for full version history.
+See the [Change Log](https://github.com/dotjesper/hello-world/wiki/Revision) wiki page for full version history.
 
 ---
 

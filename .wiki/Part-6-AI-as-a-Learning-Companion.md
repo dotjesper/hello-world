@@ -1,10 +1,10 @@
-This page is a hands-on introduction to AI-assisted coding with GitHub Copilot in Visual Studio Code. Through practical exercises, you will learn how to use AI as a learning companion - writing effective prompts, generating and validating code, and building skills through intentional collaboration with AI.
+This page is a hands-on introduction to AI-assisted coding with GitHub Copilot in Visual Studio Code. Through practical walkthroughs, you will learn how to use AI as a learning companion - writing effective prompts, generating and validating code, and building skills through intentional collaboration with AI.
 
-For downloading and referencing repository content programmatically, see the [Lesson 5 Working With Repositories](./Lesson-5-Working-With-Repositories) page. For GitHub Copilot configuration and custom instructions, see the [Lesson 7 Copilot Configuration](./Lesson-7-Copilot-Configuration) page.
+For downloading and referencing repository content programmatically, see the [Part 5 Working With Repositories](./Part-5-Working-With-Repositories) page. For GitHub Copilot configuration and custom instructions, see the [Part 7 Copilot Configuration](./Part-7-Copilot-Configuration) page.
 
-## What is vibe coding?
+## What is Vibe Coding?
 
-Vibe coding is a term for using AI tools to assist with writing code, scripts, and documentation. You describe what you want in natural language, and AI helps you get there faster. But vibe coding is not about blindly accepting generated output - it is about collaborating with AI while applying your own knowledge, experience, and judgment.
+Vibe Coding is a term for using AI tools to assist with writing code, scripts, and documentation. You describe what you want in natural language, and AI helps you get there faster. But Vibe Coding is not about blindly accepting generated output - it is about collaborating with AI while applying your own knowledge, experience, and judgment.
 
 > Using AI to write code is not cheating. It is a superpower - but only if you approach it with the right mindset. The difference between a superpower and a crutch is simple: one makes you stronger, the other makes you weaker.
 >
@@ -12,10 +12,10 @@ Vibe coding is a term for using AI tools to assist with writing code, scripts, a
 
 ## Getting started with GitHub Copilot
 
-GitHub Copilot is the AI assistant built into Visual Studio Code. Before starting the exercises on this page, make sure you have the following prerequisites in place:
+GitHub Copilot is the AI assistant built into Visual Studio Code. Before starting the walkthroughs on this page, make sure you have the following prerequisites in place:
 
 - A GitHub account with a GitHub Copilot subscription (Free, Pro, or through your organization)
-- Visual Studio Code installed with the GitHub Copilot extension
+- Visual Studio Code installed with the [GitHub Copilot Chat](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat "GitHub Copilot Chat") extension
 - Signed in to your GitHub account in Visual Studio Code
 
 Once set up, GitHub Copilot provides several capabilities:
@@ -29,7 +29,7 @@ For official documentation, see [GitHub Copilot documentation](https://docs.gith
 
 ## Your first Copilot conversation
 
-This exercise walks you through opening Copilot Chat and having your first AI-assisted conversation. The goal is to get comfortable with the interface and see how AI responds to questions about code.
+This walkthrough guides you through opening Copilot Chat and having your first AI-assisted conversation. The goal is to get comfortable with the interface and see how AI responds to questions about code.
 
 1. Open Visual Studio Code and press **Ctrl+Alt+I** to open Copilot Chat (or click the Copilot icon in the sidebar)
 2. Type the following prompt and press **Enter**:
@@ -53,11 +53,11 @@ This exercise walks you through opening Copilot Chat and having your first AI-as
 
 ### What to notice
 
-This first exercise demonstrates something important about AI-assisted coding. Each response gives you something new to explore - you see patterns you have not encountered before, discover new approaches to familiar problems, and build knowledge through interaction. This is the core of using AI as a learning companion - every conversation becomes educational when you approach it with curiosity.
+This first walkthrough demonstrates something important about AI-assisted coding. Each response gives you something new to explore - you see patterns you have not encountered before, discover new approaches to familiar problems, and build knowledge through interaction. This is the core of using AI as a learning companion - every conversation becomes educational when you approach it with curiosity.
 
 ## Writing effective prompts
 
-The quality of AI-generated output depends directly on the quality of your prompts. This exercise demonstrates the difference between vague and specific prompts.
+The quality of AI-generated output depends directly on the quality of your prompts. This walkthrough demonstrates the difference between vague and specific prompts.
 
 A good prompt includes four key components:
 
@@ -99,7 +99,7 @@ Each iteration refines the output and teaches you something new about the approa
 
 ## Generating and understanding a script
 
-This exercise walks you through the full cycle of generating code with AI, understanding it, and making it your own. This is where the learning companion mindset matters most - treat the output as scaffolding, not a finished product.
+This walkthrough guides you through the full cycle of generating code with AI, understanding it, and making it your own. This is where the learning companion mindset matters most - treat the output as scaffolding, not a finished product.
 
 1. Open a new file in Visual Studio Code and save it as `Get-SystemUptime.ps1`
 2. Open Copilot Chat and enter this prompt:
@@ -125,12 +125,9 @@ This exercise walks you through the full cycle of generating code with AI, under
 
 5. Try modifying the script yourself - for example, add a `-ComputerName` parameter to check remote systems
 
-> [!NOTE]
-> You do not need to keep the file you created. The purpose of this exercise is the process of generating, reviewing, understanding, and modifying - not the final script itself.
-
 ## Learning a new concept through AI
 
-One of the most powerful uses of AI-assisted coding is exploring unfamiliar concepts. This exercise replicates a real-world discovery - learning bitmasks through GitHub Copilot.
+One of the most powerful uses of AI-assisted coding is exploring unfamiliar concepts. This walkthrough replicates a real-world discovery - learning bitmasks through GitHub Copilot.
 
 ### Background
 
@@ -178,11 +175,11 @@ Open Copilot Chat and work through these prompts in sequence:
    compared to using an array of feature names as a parameter.
    ```
 
-This exercise demonstrates the learning cycle - you start with a problem, discover a technique through AI, build understanding through follow-up questions, and evaluate trade-offs. The bitmask concept was not just copied - it was understood, validated, and added as a new technique to the toolkit.
+This walkthrough demonstrates the learning cycle - you start with a problem, discover a technique through AI, build understanding through follow-up questions, and evaluate trade-offs. The bitmask concept was not just copied - it was understood, validated, and added as a new technique to the toolkit.
 
 ## Validating AI-generated code
 
-Every piece of AI-generated code needs to go through your personal quality control process before you use it. This exercise walks you through validating a Copilot-generated script.
+Every piece of AI-generated code needs to go through your personal quality control process before you use it. This walkthrough guides you through validating a Copilot-generated script.
 
 1. Ask GitHub Copilot to generate a script:
 
@@ -289,7 +286,7 @@ When a script fails or behaves unexpectedly, copy the relevant log output into C
    success rate.
    ```
 
-### What this exercise demonstrates
+### What this walkthrough demonstrates
 
 Logging and AI-assisted troubleshooting work together as a feedback loop. The logging captures what happened, and AI helps you understand why it happened and how to improve it:
 
@@ -309,10 +306,10 @@ These guidelines help you build effective habits when working with AI tools.
 Effective AI-assisted coding starts with these habits:
 
 - **Start with understanding** - Before asking AI for help, make sure you understand the problem you are trying to solve
-- **Be specific in requests** - Vague prompts produce vague results, as demonstrated in Exercise 2
+- **Be specific in requests** - Vague prompts produce vague results, as demonstrated in the Writing effective prompts section
 - **Review everything critically** - Treat AI output as a draft, not a final product
 - **Learn from the output** - Each interaction is a learning opportunity
-- **Validate thoroughly** - Testing and verification are non-negotiable, as practiced in Exercise 5
+- **Validate thoroughly** - Testing and verification are non-negotiable, as practiced in the Validating AI-generated code section
 - **Iterate and refine** - Good solutions often emerge through multiple rounds of refinement
 - **Ask the AI to explain** - Use Copilot Chat to understand why code works, not just what it does
 
@@ -333,7 +330,7 @@ These practices lead to problems and undermine the value of AI tools:
 
 These resources provide further reading on the topics covered on this page:
 
-- [5 reasons you should explore vibe coding](https://dotjesper.com/2025/5-reasons-you-should-explore-vibe-coding/) - Introduction to vibe coding and why it matters for IT professionals
+- [5 reasons you should explore Vibe Coding](https://dotjesper.com/2025/5-reasons-you-should-explore-vibe-coding/) - Introduction to Vibe Coding and why it matters for IT professionals
 - [Exploring Vibe Coding as a Superpower](https://dotjesper.com/2026/exploring-vibe-coding-as-a-superpower/) - Blog post exploring AI-assisted coding as a learning companion
 - [GitHub Copilot documentation](https://docs.github.com/en/copilot) - Official documentation for getting started with GitHub Copilot
 - [Prompt engineering best practices](https://platform.openai.com/docs/guides/prompt-engineering) - Techniques for crafting effective prompts
