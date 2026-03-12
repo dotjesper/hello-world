@@ -213,7 +213,8 @@ These resources provide further reading on the topics covered in this page:
 - [About repositories](https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories "About repositories") - Understanding repository visibility and settings
 - [Creating a gist](https://docs.github.com/en/get-started/writing-on-github/editing-and-sharing-content-with-gists/creating-gists "Creating a gist") - GitHub Gist documentation
 - [Invoke-RestMethod](https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-restmethod "Invoke-RestMethod") - PowerShell documentation for REST API calls
+- [Exploring code signing for Microsoft Intune](https://dotjesper.com/2026/exploring-code-signing-for-microsoft-intune/ "Exploring code signing for Microsoft Intune") - Code signing fundamentals and best practices for signing PowerShell scripts before deployment
 
 ---
 
-*Page revised: March 7, 2026*
+*Page revised: March 12, 2026*
