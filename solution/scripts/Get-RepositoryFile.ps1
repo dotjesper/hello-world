@@ -11,7 +11,7 @@
 .EXTERNALMODULEDEPENDENCIES
 .REQUIREDSCRIPTS
 .EXTERNALSCRIPTDEPENDENCIES
-.RELEASENOTES https://github.com/dotjesper/hello-world/wiki/release-notes
+.RELEASENOTES https://github.com/dotjesper/hello-world/blob/main/solution#release-notes
 #>
 <#
 .SYNOPSIS
@@ -96,6 +96,10 @@ begin {
     if ($SilentProgress) {
         $ProgressPreference = "SilentlyContinue"
     }
+    #endregion
+
+    #region :: TLS 1.2 (required by GitHub API, not always the default in PowerShell 5.1)
+    [Net.ServicePointManager]::SecurityProtocol = [Net.ServicePointManager]::SecurityProtocol -bor [Net.SecurityProtocolType]::Tls12
     #endregion
 
     #region :: functions

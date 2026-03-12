@@ -1,3 +1,18 @@
+<#PSScriptInfo
+.VERSION 1.0.0
+.GUID FCE12379-DA0B-4413-84A5-1CD34EC83817
+.AUTHOR @dotjesper
+.COMPANYNAME dotjesper.com
+.COPYRIGHT dotjesper.com
+.TAGS powershell hello-world demonstration greeting
+.LICENSEURI https://github.com/dotjesper/hello-world/blob/main/LICENSE
+.PROJECTURI https://github.com/dotjesper/hello-world/
+.ICONURI
+.EXTERNALMODULEDEPENDENCIES
+.REQUIREDSCRIPTS
+.EXTERNALSCRIPTDEPENDENCIES
+.RELEASENOTES https://github.com/dotjesper/hello-world/blob/main/solution#release-notes
+#>
 <#
 .SYNOPSIS
     Hello World demonstration script showcasing PowerShell invocation details and 64-bit relaunch.

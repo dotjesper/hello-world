@@ -21,7 +21,7 @@ While the repository [README](https://github.com/dotjesper/hello-world/#readme) 
 | **[Part 3 Repository Essentials](./Part-3-Repository-Essentials)** | Markdown, README files, and common repository files |
 | **[Part 4 Branching and Workflows](./Part-4-Branching-and-Workflows)** | Cloning, branching, pull requests, and the daily Git workflow |
 | **[Part 5 Working With Repositories](./Part-5-Working-With-Repositories)** | Downloading, referencing, and working with repositories programmatically |
-| **[Part 6 AI as a Learning Companion](./Part-6-AI-as-a-Learning-Companion)** | AI-assisted coding, GitHub Copilot, and vibe coding as a learning companion |
+| **[Part 6 AI as a Learning Companion](./Part-6-AI-as-a-Learning-Companion)** | AI-assisted coding, GitHub Copilot, and Vibe Coding as a learning companion |
 | **[Part 7 Copilot Configuration](./Part-7-Copilot-Configuration)** | Creating, maintaining, and sharing GitHub Copilot custom instructions |
 | **[Part 8 Field Notes](./Part-8-Field-Notes)** | Practical lessons learned and insights collected through hands-on experience |
 | **[Part 9 Exercises](./Part-9-Exercises)** | Companion exercises for each part of the wiki |

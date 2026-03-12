@@ -80,13 +80,29 @@ The repository is organized into the following structure:
      📄 README.md                            # Repository documentation (this file)
 ```
 
+## Companion wiki
+
+The [project wiki](https://github.com/dotjesper/hello-world/wiki "Hello World wiki") is a companion to this repository - a living notebook capturing deeper notes, decisions, and lessons learned along the way. It covers the full journey from first install to daily use:
+
+| Page | Description |
+| :--- | :---------- |
+| **[Part 1 Getting Started](https://github.com/dotjesper/hello-world/wiki/Part-1-Getting-Started)** | Introduction to GitHub, Git and Visual Studio Code |
+| **[Part 2 Creating a Repository](https://github.com/dotjesper/hello-world/wiki/Part-2-Creating-a-Repository)** | Creating and configuring a GitHub repository |
+| **[Part 3 Repository Essentials](https://github.com/dotjesper/hello-world/wiki/Part-3-Repository-Essentials)** | Markdown, README files, and common repository files |
+| **[Part 4 Branching and Workflows](https://github.com/dotjesper/hello-world/wiki/Part-4-Branching-and-Workflows)** | Cloning, branching, pull requests, and the daily Git workflow |
+| **[Part 5 Working With Repositories](https://github.com/dotjesper/hello-world/wiki/Part-5-Working-With-Repositories)** | Downloading, referencing, and working with repositories programmatically |
+| **[Part 6 AI as a Learning Companion](https://github.com/dotjesper/hello-world/wiki/Part-6-AI-as-a-Learning-Companion)** | AI-assisted coding, GitHub Copilot, and Vibe Coding as a learning companion |
+| **[Part 7 Copilot Configuration](https://github.com/dotjesper/hello-world/wiki/Part-7-Copilot-Configuration)** | Creating, maintaining, and sharing GitHub Copilot custom instructions |
+| **[Part 8 Field Notes](https://github.com/dotjesper/hello-world/wiki/Part-8-Field-Notes)** | Practical lessons learned and insights collected through hands-on experience |
+| **[Part 9 Exercises](https://github.com/dotjesper/hello-world/wiki/Part-9-Exercises)** | Companion exercises for each part of the wiki |
+
 ## Usage
 
 This repository is primarily a learning and reference resource. To make the most of it:
 
 1. **Explore the Structure** - Review how the repository is organized and documented
 2. **Read the Documentation** - Study the README, CONTRIBUTING, and other documentation files
-3. **Check the Wiki** - Visit the [project wiki](https://github.com/dotjesper/hello-world/wiki) for additional notes and change history
+3. **Check the Wiki** - Explore the [companion wiki](https://github.com/dotjesper/hello-world/wiki) for in-depth guides on every topic covered in this project
 4. **Join Discussions** - Participate in [GitHub Discussions](https://github.com/dotjesper/hello-world/discussions) to share ideas
 5. **Use as a Template** - Fork or reference this structure for your own projects
 
@@ -118,7 +134,7 @@ See the [Change Log](https://github.com/dotjesper/hello-world/wiki/Revision) wik
 
 ---
 
-*Page revised: March 5, 2026*
+*Page revised: March 12, 2026*
 
 [![Jesper on Bluesky](https://img.shields.io/badge/follow-@dotjesper.bsky.social-whitesmoke?style=social&logo=bluesky)](https://bsky.app/profile/dotjesper.bsky.social/ "Follow Jesper")
 [![Jesper on X](https://img.shields.io/badge/follow-@dotjesper-whitesmoke?style=social&logo=x)](https://x.com/dotjesper/ "Follow Jesper")

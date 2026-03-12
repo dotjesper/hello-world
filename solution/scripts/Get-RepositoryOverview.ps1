@@ -11,7 +11,7 @@
 .EXTERNALMODULEDEPENDENCIES
 .REQUIREDSCRIPTS
 .EXTERNALSCRIPTDEPENDENCIES
-.RELEASENOTES https://github.com/dotjesper/hello-world/wiki/release-notes
+.RELEASENOTES https://github.com/dotjesper/hello-world/blob/main/solution#release-notes
 #>
 <#
 .SYNOPSIS

@@ -1,3 +1,18 @@
+<#PSScriptInfo
+.VERSION 1.1.0
+.GUID FE4D5998-9452-4125-900B-D8B4AB6E15DD
+.AUTHOR @dotjesper
+.COMPANYNAME dotjesper.com
+.COPYRIGHT dotjesper.com
+.TAGS powershell shortcut pin startmenu taskbar windows
+.LICENSEURI https://github.com/dotjesper/hello-world/blob/main/LICENSE
+.PROJECTURI https://github.com/dotjesper/hello-world/
+.ICONURI
+.EXTERNALMODULEDEPENDENCIES
+.REQUIREDSCRIPTS
+.EXTERNALSCRIPTDEPENDENCIES
+.RELEASENOTES https://github.com/dotjesper/hello-world/blob/main/solution#release-notes
+#>
 <#
 .SYNOPSIS
     Attempts to pin or unpin a shortcut or app to the Windows taskbar or Start Menu

@@ -1,3 +1,18 @@
+<#PSScriptInfo
+.VERSION 1.0.0
+.GUID F34113EC-69A0-483A-B57B-2B98E721DD0E
+.AUTHOR @dotjesper
+.COMPANYNAME dotjesper.com
+.COPYRIGHT dotjesper.com
+.TAGS powershell network speedtest download bandwidth
+.LICENSEURI https://github.com/dotjesper/hello-world/blob/main/LICENSE
+.PROJECTURI https://github.com/dotjesper/hello-world/
+.ICONURI
+.EXTERNALMODULEDEPENDENCIES
+.REQUIREDSCRIPTS
+.EXTERNALSCRIPTDEPENDENCIES
+.RELEASENOTES https://github.com/dotjesper/hello-world/blob/main/solution#release-notes
+#>
 <#
 .SYNOPSIS
     Performs a network speed test by downloading a file from a public URL.
@@ -51,6 +66,10 @@ begin {
     [version]$ScriptVersion = '1.0.0'
     Set-Variable -Name 'ScriptVersion' -Value $ScriptVersion -Option ReadOnly -Scope Script
     [double]$totalSpeedMbps = 0
+    #endregion
+
+    #region :: TLS 1.2 (required for web requests, not always the default in PowerShell 5.1)
+    [Net.ServicePointManager]::SecurityProtocol = [Net.ServicePointManager]::SecurityProtocol -bor [Net.SecurityProtocolType]::Tls12
     #endregion
 
     #region :: functions

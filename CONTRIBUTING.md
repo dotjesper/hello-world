@@ -1,10 +1,10 @@
-## Contributing to the **Hello world** project
+## Contributing to the **Hello World** project
 
 Thank you for your interest in contributing to the **Hello world project**!
 
 This project is a personal learning platform and open-source tool, and contributions of all kinds are welcome - from bug reports and feature ideas to code improvements and documentation updates.
 
-### Starting a Discussion
+## Starting a Discussion
 
 For general questions, ideas, or feedback that are not specific bugs or feature requests, please use [GitHub Discussions](https://github.com/dotjesper/hello-world/discussions). This is the best place to:
 
@@ -22,7 +22,7 @@ This is a personal development project shared with the community. Please respect
 
 ## License
 
-By contributing to **Hello world project**, you agree that your contributions will be licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/) - in other words, share generously, provide attribution, but no commercial use.
+By contributing to **Hello World** project, you agree that your contributions will be licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/) - in other words, share generously, provide attribution, but no commercial use.
 
 ---
 
