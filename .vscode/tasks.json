@@ -24,7 +24,7 @@
     {
       "label": "Sync Wiki Pages",
       "type": "shell",
-      "command": "robocopy.exe '${workspaceFolder}/../hello-world.wiki' '${workspaceFolder}/.wiki' *.md /XF _*.md /XF README.md /PURGE; if ($LASTEXITCODE -le 7) { exit 0 } else { exit 1 }",
+      "command": "robocopy.exe '${workspaceFolder}/../hello-world.wiki' '${workspaceFolder}/.wiki' *.md /XF README.md /PURGE; if ($LASTEXITCODE -le 7) { exit 0 } else { exit 1 }",
       "group": "none",
       "presentation": {
         "reveal": "always"
