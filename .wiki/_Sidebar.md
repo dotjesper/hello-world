@@ -3,7 +3,6 @@
 <details>
 <summary>Part 1 Getting Started</summary>
 
-**[Part 1 Getting Started](./Part-1-Getting-Started)**
 - [Why GitHub, Git and Visual Studio Code](./Part-1-Getting-Started#why-github-git-and-visual-studio-code)
 - [What you need before you start](./Part-1-Getting-Started#what-you-need-before-you-start)
 - [Installing Visual Studio Code and Git](./Part-1-Getting-Started#installing-visual-studio-code-and-git)
@@ -16,7 +15,6 @@
 <details>
 <summary>Part 2 Creating a Repository</summary>
 
-**[Part 2 Creating a Repository](./Part-2-Creating-a-Repository)**
 - [Creating a GitHub repository](./Part-2-Creating-a-Repository#creating-a-github-repository)
 - [Initializing Git in a standalone folder](./Part-2-Creating-a-Repository#initializing-git-in-a-standalone-folder)
 - [Useful references](./Part-2-Creating-a-Repository#useful-references)
@@ -26,7 +24,6 @@
 <details>
 <summary>Part 3 Repository Essentials</summary>
 
-**[Part 3 Repository Essentials](./Part-3-Repository-Essentials)**
 - [Learning Markdown](./Part-3-Repository-Essentials#learning-markdown)
 - [Common repository files](./Part-3-Repository-Essentials#common-repository-files)
 - [Community health files](./Part-3-Repository-Essentials#community-health-files)
@@ -39,7 +36,6 @@
 <details>
 <summary>Part 4 Branching and Workflows</summary>
 
-**[Part 4 Branching and Workflows](./Part-4-Branching-and-Workflows)**
 - [Cloning a repository](./Part-4-Branching-and-Workflows#cloning-a-repository)
 - [Using multi-root workspaces](./Part-4-Branching-and-Workflows#using-multi-root-workspaces)
 - [Working with branches](./Part-4-Branching-and-Workflows#working-with-branches)
@@ -51,7 +47,6 @@
 <details>
 <summary>Part 5 Working With Repositories</summary>
 
-**[Part 5 Working With Repositories](./Part-5-Working-With-Repositories)**
 - [Understanding GitHub URLs](./Part-5-Working-With-Repositories#understanding-github-urls)
 - [Downloading files from GitHub using PowerShell](./Part-5-Working-With-Repositories#downloading-files-from-github-using-powershell)
 - [Referencing files in a repository](./Part-5-Working-With-Repositories#referencing-files-in-a-repository)
@@ -65,7 +60,6 @@
 <details>
 <summary>Part 6 AI as a Learning Companion</summary>
 
-**[Part 6 AI as a Learning Companion](./Part-6-AI-as-a-Learning-Companion)**
 - [What is Vibe Coding?](./Part-6-AI-as-a-Learning-Companion#what-is-vibe-coding)
 - [Getting started with GitHub Copilot](./Part-6-AI-as-a-Learning-Companion#getting-started-with-github-copilot)
 - [Your first Copilot conversation](./Part-6-AI-as-a-Learning-Companion#your-first-copilot-conversation)
@@ -82,7 +76,6 @@
 <details>
 <summary>Part 7 Copilot Configuration</summary>
 
-**[Part 7 Copilot Configuration](./Part-7-Copilot-Configuration)**
 - [Adding copilot-instructions.md to your repository](./Part-7-Copilot-Configuration#adding-copilot-instructionsmd-to-your-repository)
 - [Sharing instructions across repositories](./Part-7-Copilot-Configuration#sharing-instructions-across-repositories)
 - [Useful references](./Part-7-Copilot-Configuration#useful-references)
@@ -92,7 +85,6 @@
 <details>
 <summary>Part 8 Field Notes</summary>
 
-**[Part 8 Field Notes](./Part-8-Field-Notes)**
 - [Extension recommendations in multi-root workspaces](./Part-8-Field-Notes#extension-recommendations-in-multi-root-workspaces)
 - [Copilot instructions and the GitHub Wiki sidebar](./Part-8-Field-Notes#copilot-instructions-and-the-github-wiki-sidebar)
 - [GitHub Wiki does not support branch switching](./Part-8-Field-Notes#github-wiki-does-not-support-branch-switching)
@@ -105,17 +97,25 @@
 <details>
 <summary>Part 9 Exercises</summary>
 
-**[Part 9 Exercises](./Part-9-Exercises)**
-- [Prerequisites](./Part-9-Exercises#prerequisites)
-- [Part 1 - Getting started](./Part-9-Exercises#part-1---getting-started)
-- [Part 2 - Creating a repository](./Part-9-Exercises#part-2---creating-a-repository)
-- [Part 3 - Repository essentials](./Part-9-Exercises#part-3---repository-essentials)
-- [Part 4 - Branching and workflows](./Part-9-Exercises#part-4---branching-and-workflows)
-- [Part 5 - Working with repositories](./Part-9-Exercises#part-5---working-with-repositories)
-- [Part 6 - AI as a learning companion](./Part-9-Exercises#part-6---ai-as-a-learning-companion)
-- [Part 7 - Copilot configuration](./Part-9-Exercises#part-7---copilot-configuration)
-- [What to do next](./Part-9-Exercises#what-to-do-next)
-- [Useful references](./Part-9-Exercises#useful-references)
+[Prerequisites](./Part-9-Exercises#prerequisites)
+
+[Part 1 - Getting started](./Part-9-Exercises#part-1---getting-started)
+
+[Part 2 - Creating a repository](./Part-9-Exercises#part-2---creating-a-repository)
+
+[Part 3 - Repository essentials](./Part-9-Exercises#part-3---repository-essentials)
+
+[Part 4 - Branching and workflows](./Part-9-Exercises#part-4---branching-and-workflows)
+
+[Part 5 - Working with repositories](./Part-9-Exercises#part-5---working-with-repositories)
+
+[Part 6 - AI as a learning companion](./Part-9-Exercises#part-6---ai-as-a-learning-companion)
+
+[Part 7 - Copilot configuration](./Part-9-Exercises#part-7---copilot-configuration)
+
+[What to do next](./Part-9-Exercises#what-to-do-next)
+
+[Useful references](./Part-9-Exercises#useful-references)
 
 </details>
 
