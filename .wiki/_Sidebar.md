@@ -3,7 +3,9 @@
 <details>
 <summary>Part 1 Getting Started</summary>
 
-This first part of the guide focuses on getting started with GitHub, Git, and Visual Studio Code. It covers the reasons for using these tools, what you need before you start, how to install and set up Visual Studio Code and Git, configuring Git, and useful references for further learning.
+This [first part](./Part-1-Getting-Started#introduction) of the guide focuses on getting started with GitHub, Git, and Visual Studio Code. It covers the reasons for using these tools, what you need before you start, how to install and set up Visual Studio Code and Git, configuring Git, and useful references for further learning.
+
+[Introduction](./Part-1-Getting-Started#introduction)
 
 [Why GitHub, Git and Visual Studio Code](./Part-1-Getting-Started#why-github-git-and-visual-studio-code)
 
@@ -22,8 +24,7 @@ This first part of the guide focuses on getting started with GitHub, Git, and Vi
 <details>
 <summary>Part 2 Creating a Repository</summary>
 
-Part 2 focuses on creating a repository, including how to create a GitHub repository, initializing Git in a standalone folder, and useful references for further learning.
-
+[Part 2](./Part-2-Creating-a-Repository#introduction) focuses on creating a repository, including how to create a GitHub repository, initializing Git in a standalone folder, and useful references for further learning.
 
 [Creating a GitHub repository](./Part-2-Creating-a-Repository#creating-a-github-repository)
 
@@ -36,7 +37,7 @@ Part 2 focuses on creating a repository, including how to create a GitHub reposi
 <details>
 <summary>Part 3 Repository Essentials</summary>
 
-Part 3 covers the essentials of working with repositories, including learning Markdown, common repository files, community health files, writing good commit messages, common scenarios for IT professionals, and useful references for further learning.
+[Part 3](./Part-3-Repository-Essentials#introduction) covers the essentials of working with repositories, including learning Markdown, common repository files, community health files, writing good commit messages, common scenarios for IT professionals, and useful references for further learning.
 
 [Learning Markdown](./Part-3-Repository-Essentials#learning-markdown)
 
@@ -55,7 +56,7 @@ Part 3 covers the essentials of working with repositories, including learning Ma
 <details>
 <summary>Part 4 Branching and Workflows</summary>
 
-Part 4 delves into branching and workflows in Git. It covers the basics of Git branches, how to clone a repository, using multi-root workspaces in Visual Studio Code, working with branches, and the daily Git workflow. It also includes useful references for further learning.
+[Part 4](./Part-4-Branching-and-Workflows#introduction) delves into branching and workflows in Git. It covers the basics of Git branches, how to clone a repository, using multi-root workspaces in Visual Studio Code, working with branches, and the daily Git workflow. It also includes useful references for further learning.
 
 [Cloning a repository](./Part-4-Branching-and-Workflows#cloning-a-repository)
 
@@ -72,7 +73,7 @@ Part 4 delves into branching and workflows in Git. It covers the basics of Git b
 <details>
 <summary>Part 5 Working With Repositories</summary>
 
-Part 5 focuses on working with repositories, including understanding GitHub URLs, downloading files from GitHub using PowerShell, referencing files in a repository, and the differences between public and private repositories. It also includes sample scripts, an alternative using GitHub Gist, and useful references for further learning.
+[Part 5](./Part-5-Working-With-Repositories#introduction) focuses on working with repositories, including understanding GitHub URLs, downloading files from GitHub using PowerShell, referencing files in a repository, and the differences between public and private repositories. It also includes sample scripts, an alternative using GitHub Gist, and useful references for further learning.
 
 [Understanding GitHub URLs](./Part-5-Working-With-Repositories#understanding-github-urls)
 
@@ -93,7 +94,7 @@ Part 5 focuses on working with repositories, including understanding GitHub URLs
 <details>
 <summary>Part 6 AI as a Learning Companion</summary>
 
-Part 6 explores how to use AI, specifically GitHub Copilot, as a learning companion to enhance your coding experience. It covers the basics of Vibe Coding, how to get started with GitHub Copilot, and practical tips for writing effective prompts and validating AI-generated code. It also includes guidelines for using AI-assisted coding and references for further learning.
+[Part 6](./Part-6-AI-as-a-Learning-Companion#introduction) explores how to use AI, specifically GitHub Copilot, as a learning companion to enhance your coding experience. It covers the basics of Vibe Coding, how to get started with GitHub Copilot, and practical tips for writing effective prompts and validating AI-generated code. It also includes guidelines for using AI-assisted coding and references for further learning.
 
 [What is Vibe Coding?](./Part-6-AI-as-a-Learning-Companion#what-is-vibe-coding)
 
@@ -120,7 +121,7 @@ Part 6 explores how to use AI, specifically GitHub Copilot, as a learning compan
 <details>
 <summary>Part 7 Copilot Configuration</summary>
 
-Part 7 focuses on configuring GitHub Copilot to enhance your coding experience. It covers how to create and use copilot-instructions.md files to provide context and guidance to Copilot, as well as best practices for sharing instructions across repositories.
+[Part 7](./Part-7-Copilot-Configuration#introduction) focuses on configuring GitHub Copilot to enhance your coding experience. It covers how to create and use copilot-instructions.md files to provide context and guidance to Copilot, as well as best practices for sharing instructions across repositories.
 
 [Adding copilot-instructions.md to your repository](./Part-7-Copilot-Configuration#adding-copilot-instructionsmd-to-your-repository)
 
@@ -133,7 +134,7 @@ Part 7 focuses on configuring GitHub Copilot to enhance your coding experience. 
 <details>
 <summary>Part 8 Field Notes</summary>
 
-Part 8 is a collection of field notes, which are practical insights and tips that I've gathered through my experience working with GitHub, Git, Visual Studio Code, and GitHub Copilot. These notes are meant to provide additional context and guidance on specific topics that may not have been covered in depth in the previous parts.
+[Part 8](./Part-8-Field-Notes#introduction) is a collection of field notes, which are practical insights and tips that I've gathered through my experience working with GitHub, Git, Visual Studio Code, and GitHub Copilot. These notes are meant to provide additional context and guidance on specific topics that may not have been covered in depth in the previous parts.
 
 [Extension recommendations in multi-root workspaces](./Part-8-Field-Notes#extension-recommendations-in-multi-root-workspaces)
 
@@ -152,7 +153,7 @@ Part 8 is a collection of field notes, which are practical insights and tips tha
 <details>
 <summary>Part 9 Exercises</summary>
 
-This is the exercises section! This is where you can apply what you've learned in the previous parts through practical exercises. Each exercise is designed to reinforce key concepts and skills related to GitHub, Git, and Visual Studio Code.
+This is the [exercises](./Part-9-Exercises#introduction) section! This is where you can apply what you've learned in the previous parts through practical exercises. Each exercise is designed to reinforce key concepts and skills related to GitHub, Git, and Visual Studio Code.
 
 [Prerequisites](./Part-9-Exercises#prerequisites)
 
