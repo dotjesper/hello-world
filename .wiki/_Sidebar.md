@@ -97,6 +97,8 @@
 <details>
 <summary>Part 9 Exercises</summary>
 
+Welcome to the exercises section! This is where you can apply what you've learned in the previous parts through practical exercises. Each exercise is designed to reinforce key concepts and skills related to GitHub, Git, and Visual Studio Code.
+
 [Prerequisites](./Part-9-Exercises#prerequisites)
 
 [Part 1 - Getting started](./Part-9-Exercises#part-1---getting-started)
