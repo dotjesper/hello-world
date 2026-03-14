@@ -114,36 +114,42 @@ These files apply to every workspace you open in Visual Studio Code unless overr
 > [!IMPORTANT]
 > Visual Studio Code requires absolute paths - it does not expand `~` or `$HOME`. Use the full path to your OneDrive directory.
 
+> [!NOTE]
+> In a multi-root workspace, per-folder `.vscode/settings.json` files are not used for `github.copilot.chat.codeGeneration.instructions`. Use global (user-level) settings or the `.code-workspace` file instead. Repo-level instruction files (`.github/copilot-instructions.md` and `.github/instructions/`) are still auto-detected per workspace folder.
+
 ### Combining global and repo-level instructions
 
-For projects that need both shared and project-specific instructions, add workspace-level settings in `.vscode/settings.json` that reference both:
+When a project needs both shared and project-specific instructions, the two mechanisms work together automatically:
+
+- **Repo-level instructions** - `.github/copilot-instructions.md` and any `.instructions.md` files in `.github/instructions/` are auto-detected by Visual Studio Code. No settings.json configuration is required.
+- **External shared instructions** - Files stored outside the workspace (for example, in OneDrive) must be referenced in settings.json because Visual Studio Code cannot auto-detect files outside the workspace.
+
+To reference external files, add them to your global (user-level) `settings.json` or the `.code-workspace` file:
 
 ```json
 "github.copilot.chat.codeGeneration.instructions": [
   { "file": "C:\\Users\\YourName\\OneDrive\\.github\\copilot-instructions\\base.instructions.md" },
-  { "file": "C:\\Users\\YourName\\OneDrive\\.github\\copilot-instructions\\documentation-style.instructions.md" },
-  { "file": ".github/copilot-instructions/linked.instructions.md" },
-  { "file": ".github/copilot-instructions/session.instructions.md" }
+  { "file": "C:\\Users\\YourName\\OneDrive\\.github\\copilot-instructions\\documentation-style.instructions.md" }
 ]
 ```
 
-This layered approach gives you global reusable knowledge combined with local project-specific overrides - without duplicating content across repositories.
+This layered approach gives you global reusable knowledge combined with local project-specific instructions - without duplicating content across repositories. Repo-level files are picked up automatically, and external files are pulled in through settings.
 
 ### Organizing multiple repo-level instruction files
 
-As a repository grows, a single `copilot-instructions.md` file may not be enough. Creating a dedicated folder inside `.github/` keeps instruction files organized and easy to maintain:
+As a repository grows, a single `copilot-instructions.md` file may not be enough. Creating a dedicated `instructions/` folder inside `.github/` keeps instruction files organized and easy to maintain:
 
 ```text
  📂 your-repository/
   └─ 📂 .github/
       ├─ 📄 copilot-instructions.md          # Auto-picked up by GitHub Copilot
-      └─ 📂 copilot-instructions/
+      └─ 📂 instructions/
            ├─ 📄 linked.instructions.md      # Companion blog post writing guide
            ├─ 📄 session.instructions.md     # Session abstract writing guide
            └─ 📄 powershell.instructions.md  # PowerShell coding standards
 ```
 
-The `copilot-instructions.md` file in the `.github/` root is picked up automatically by GitHub Copilot without any configuration. Additional files inside the `copilot-instructions/` folder need to be referenced explicitly in `.vscode/settings.json` - but having them in a clearly named folder makes it obvious what they are and where they belong.
+The `copilot-instructions.md` file in the `.github/` root is picked up automatically by GitHub Copilot. Additional `.instructions.md` files inside the `.github/instructions/` folder are also auto-detected - Visual Studio Code combines and adds them to the chat context without any settings.json configuration. Having them in a clearly named folder makes it obvious what they are and where they belong.
 
 ### When to use each approach
 
@@ -152,9 +158,8 @@ Choosing the right location for your instructions depends on how broadly they ap
 | Approach | Location | Applies to |
 | :------- | :------- | :--------- |
 | Repo-level (single file) | `.github/copilot-instructions.md` | A single repository - auto-picked up |
-| Repo-level (multiple files) | `.github/copilot-instructions/` | A single repository - referenced via settings |
-| Global settings | `%USERPROFILE%\OneDrive\.github\copilot-instructions\` | All repositories on your device (synced via OneDrive) |
-| Workspace settings | `.vscode/settings.json` | A specific workspace, combining global and local files |
+| Repo-level (multiple files) | `.github/instructions/` | A single repository - auto-detected |
+| Shared instruction files | Central folder (e.g., OneDrive) referenced via user-level `settings.json` or `.code-workspace` file | All repositories on your device - not supported in per-folder `.vscode/settings.json` in multi-root workspaces |
 
 Start with repo-level instructions for project-specific conventions. As you find patterns that repeat across repositories, move them to shared files and reference them globally.
 
@@ -167,4 +172,4 @@ These resources provide further reading on the topics covered on this page:
 
 ---
 
-*Page revised: March 10, 2026*
+*Page revised: March 14, 2026*

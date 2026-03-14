@@ -28,9 +28,14 @@ The `scripts/` folder contains PowerShell scripts that demonstrate various autom
 | **[Get-RepositoryOverview.ps1](./scripts/Get-RepositoryOverview.ps1)** | Generates a visual tree overview of a GitHub repository using the Git Trees API with emoji icons and box-drawing characters. |
 | **[Invoke-HelloWorld.ps1](./scripts/Invoke-HelloWorld.ps1)** | Hello World demonstration script showcasing PowerShell invocation details and 64-bit relaunch. |
 | **[Invoke-Speedtest.ps1](./scripts/Invoke-Speedtest.ps1)** | Performs a network speed test by repeatedly downloading a file and calculating average throughput in Mbit/sec. |
+| **[Invoke-SpotifySearch.ps1](./scripts/Invoke-SpotifySearch.ps1)** | Searches Spotify for focus-friendly tracks using the Spotify Web API. The sample came up when writing "Learning to focus in a world of distractions" |
 | **[Set-ShortcutPin.ps1](./scripts/Set-ShortcutPin.ps1)** | Attempts to pin or unpin a shortcut or app to the Windows taskbar or Start Menu using shell verbs. Supports both .lnk files and modern/UWP apps. |
 
 ### Release notes
+
+#### March 13, 2026
+
+- Added Invoke-SpotifySearch.ps1 v1.0.0 - searches Spotify for focus-friendly tracks with OAuth authentication and paginated results
 
 #### March 12, 2026
 
@@ -55,4 +60,4 @@ The `scripts/` folder contains PowerShell scripts that demonstrate various autom
 
 ---
 
-*Page revised: March 12, 2026*
+*Page revised: March 13, 2026*

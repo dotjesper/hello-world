@@ -12,6 +12,16 @@
       "problemMatcher": []
     },
     {
+      "label": "Open PowerShell in Scripts",
+      "type": "shell",
+      "command": "Start-Process powershell ${input:runAsElevation} -ArgumentList '-NoExit', '-Command', 'Set-Location ''${workspaceFolder}/solution/scripts'''",
+      "group": "none",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "problemMatcher": []
+    },
+    {
       "label": "Sync Wiki Pages",
       "type": "shell",
       "command": "robocopy.exe '${workspaceFolder}/../hello-world.wiki' '${workspaceFolder}/.wiki' *.md /XF _*.md /XF README.md /PURGE; if ($LASTEXITCODE -le 7) { exit 0 } else { exit 1 }",
@@ -20,6 +30,18 @@
         "reveal": "always"
       },
       "problemMatcher": []
+    }
+  ],
+  "inputs": [
+    {
+      "id": "runAsElevation",
+      "type": "pickString",
+      "description": "Run as user or admin?",
+      "options": [
+        { "label": "User", "value": "" },
+        { "label": "Admin (elevated)", "value": "-Verb RunAs" }
+      ],
+      "default": ""
     }
   ]
 }

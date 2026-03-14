@@ -49,8 +49,10 @@ The repository is organized into the following structure:
 ```text
  📂 hello-world/
   └─ 📂 .assets/
-      └─ 📄 github-repo-card-hello-world.png      # Repository card image
+      └─ 📄 github-repo-card-hello-world.png # Repository card image
      📂 .github/
+      ├─ 📂 instructions/
+      │   └─ 📄 powershell.instructions.md   # PowerShell coding standards
       ├─ 📂 ISSUE_TEMPLATE/
       │   ├─ 📄 bug_report.yml               # Bug report issue form
       │   ├─ 📄 feature_request.yml          # Feature request issue form

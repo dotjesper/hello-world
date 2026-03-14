@@ -22,7 +22,9 @@ All files in this repository must follow these standards:
       │   ├─ 📄 bug_report.yml            # Bug report issue form
       │   ├─ 📄 feature_request.yml       # Feature request issue form
       │   └─ 📄 config.yml                # Template chooser configuration
-      ├─ 📄 copilot-instructions.md       # GitHub Copilot custom instructions
+      ├─ � instructions/
+      │   └─ 📄 powershell.instructions.md # PowerShell coding standards
+      ├─ �📄 copilot-instructions.md       # GitHub Copilot custom instructions
       └─ 📄 PULL_REQUEST_TEMPLATE.md      # Pull request template
      📂 .vscode/
       ├─ 📄 extensions.json           # Recommended Visual Studio Code extensions
@@ -41,41 +43,6 @@ All files in this repository must follow these standards:
      📄 LICENSE                       # CC BY-NC-SA 4.0 License
      📄 README.md                     # Project overview
 ```
-
-## PowerShell conventions
-
-All PowerShell scripts live in `solution/scripts/` and follow these conventions:
-
-### Script structure
-
-- **Minimum version**: PowerShell 5.1+ (`#requires -version 5.1`)
-- **Function structure**: Use standard `begin`/`process`/`end` blocks
-- **Error handling**: Try-catch blocks with warnings and proper exit codes
-- **Help documentation**: Full comment-based help with `#PSScriptInfo` headers including VERSION, GUID, AUTHOR, and TAGS
-- **Parameters**: Validate with `[ValidateNotNullOrEmpty()]`, `[ValidateRange()]`, and similar attributes. Include `HelpMessage` for each parameter.
-- **Progress indication**: Use progress bars for long-running operations
-- **Verbosity**: Support `-Verbose` throughout
-
-### Script header comments
-
-PowerShell code examples in Markdown documentation (code fences) must include a header comment block with description and elevation requirement. These header comments are for documentation only - do not add them to `.ps1` script files:
-
-```powershell
-# Description: Brief explanation of what the script does
-# Elevation is required / is not required - Reason why this level is required
-```
-
-### Naming
-
-- **Script filenames**: PascalCase with Verb-Noun pattern (e.g., `Invoke-HelloWorld.ps1`, `Get-RepositoryFile.ps1`)
-- **Functions and parameters**: PascalCase
-- **Approved verbs**: Use PowerShell approved verbs (`Get-Verb`)
-
-### Security
-
-- Always use `-UseBasicParsing` on `Invoke-WebRequest` calls
-- Enforce TLS 1.2 for API calls: `[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12`
-- Use token-based authentication for GitHub API calls (never hardcode tokens)
 
 ## Writing style
 
@@ -148,4 +115,4 @@ The project wiki lives in the `hello-world.wiki` repository as a sibling workspa
 
 ---
 
-*Page revised: March 12, 2026*
+*Page revised: March 14, 2026*
