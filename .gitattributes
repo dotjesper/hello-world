@@ -1,0 +1,4 @@
+# .gitattributes - hello-world settings
+
+# Enforce LF line endings for all text files
+* text=auto eol=lf
