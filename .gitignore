@@ -1,0 +1,10 @@
+#hello-world project
+
+#directories to ignore
+.bin/
+.docs/
+
+#ai related files to ignore
+.github/instructions/*.instructions.md
+.github/prompts/
+.github/skills/
